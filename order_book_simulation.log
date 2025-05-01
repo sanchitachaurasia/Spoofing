@@ -1,0 +1,4008 @@
+2025-05-02 11:04:04,600 - INFO - Simulation logger initialized - file cleared and ready for new logs
+2025-05-02 11:04:04,600 - DEBUG - OrderBook initialized.
+2025-05-02 11:04:04,600 - INFO - User User_1 registered successfully.
+2025-05-02 11:04:04,600 - INFO - Created User_1 with $101626 balance and 104 shares
+2025-05-02 11:04:04,600 - INFO - User User_2 registered successfully.
+2025-05-02 11:04:04,600 - INFO - Created User_2 with $69617 balance and 111 shares
+2025-05-02 11:04:04,600 - INFO - User User_3 registered successfully.
+2025-05-02 11:04:04,602 - INFO - Created User_3 with $107395 balance and 110 shares
+2025-05-02 11:04:04,602 - INFO - User User_4 registered successfully.
+2025-05-02 11:04:04,602 - INFO - Created User_4 with $114884 balance and 126 shares
+2025-05-02 11:04:04,602 - INFO - User User_5 registered successfully.
+2025-05-02 11:04:04,602 - INFO - Created User_5 with $150264 balance and 142 shares
+2025-05-02 11:04:04,602 - INFO - User User_6 registered successfully.
+2025-05-02 11:04:04,602 - INFO - Created User_6 with $91529 balance and 89 shares
+2025-05-02 11:04:04,602 - INFO - User User_7 registered successfully.
+2025-05-02 11:04:04,602 - INFO - Created User_7 with $154449 balance and 152 shares
+2025-05-02 11:04:04,602 - INFO - 
+Starting simulation with 7 users and 50 transactions
+
+2025-05-02 11:04:04,602 - INFO - 
+=== Transaction 1/50 ===
+2025-05-02 11:04:04,602 - DEBUG - The user can commit 114884 balance
+2025-05-02 11:04:04,602 - DEBUG - The user can commit 92619 balance after the order id 1 for 305 shares @ 73
+2025-05-02 11:04:04,602 - INFO - User User_4 generated order: Order(1:: buy @ 73 for 305 by User_4)
+2025-05-02 11:04:04,602 - INFO - User_4 generated: Order(1:: buy @ 73 for 305 by User_4)
+2025-05-02 11:04:04,602 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: None
+=====================================
+
+2025-05-02 11:04:04,602 - DEBUG - Active order: Order(1:: buy @ 73 for 305 by User_4)
+2025-05-02 11:04:04,602 - DEBUG - Matching order now... Order(1:: buy @ 73 for 305 by User_4)
+2025-05-02 11:04:04,602 - DEBUG - Processing matched orders: [] with active order: Order(1:: buy @ 73 for 305 by User_4)
+2025-05-02 11:04:04,602 - DEBUG - No matched orders found.
+2025-05-02 11:04:04,602 - DEBUG - Active order added to buy orders: Order(1:: buy @ 73 for 305 by User_4)
+2025-05-02 11:04:04,602 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: None
+=====================================
+
+2025-05-02 11:04:04,602 - DEBUG - Matched orders: []
+2025-05-02 11:04:04,602 - INFO - Active order after matching: Order(1:: buy @ 73 for 305 by User_4)
+2025-05-02 11:04:04,703 - INFO - 
+=== Transaction 2/50 ===
+2025-05-02 11:04:04,703 - DEBUG - The user can commit 110 shares
+2025-05-02 11:04:04,703 - DEBUG - The user can commit 69 shares after the order id 2 for 41 shares @ 110
+2025-05-02 11:04:04,703 - INFO - User User_3 generated order: Order(2:: sell @ 110 for 41 by User_3)
+2025-05-02 11:04:04,703 - INFO - User_3 generated: Order(2:: sell @ 110 for 41 by User_3)
+2025-05-02 11:04:04,703 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: None
+=====================================
+
+2025-05-02 11:04:04,703 - DEBUG - Active order: Order(2:: sell @ 110 for 41 by User_3)
+2025-05-02 11:04:04,703 - DEBUG - Matching order now... Order(2:: sell @ 110 for 41 by User_3)
+2025-05-02 11:04:04,703 - DEBUG - No more matches possible for active order: Order(2:: sell @ 110 for 41 by User_3).
+2025-05-02 11:04:04,703 - DEBUG - Processing matched orders: [] with active order: Order(2:: sell @ 110 for 41 by User_3)
+2025-05-02 11:04:04,703 - DEBUG - No matched orders found.
+2025-05-02 11:04:04,703 - DEBUG - Active order added to sell orders: Order(2:: sell @ 110 for 41 by User_3)
+2025-05-02 11:04:04,703 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+2 | User_3 | 110 | 41
+=====================
+=====================================
+Last Trade Price: None
+=====================================
+
+2025-05-02 11:04:04,703 - DEBUG - Matched orders: []
+2025-05-02 11:04:04,703 - INFO - Active order after matching: Order(2:: sell @ 110 for 41 by User_3)
+2025-05-02 11:04:04,805 - INFO - 
+=== Transaction 3/50 ===
+2025-05-02 11:04:04,805 - DEBUG - The user can commit 107395 balance
+2025-05-02 11:04:04,805 - DEBUG - The user can commit 85039 balance after the order id 3 for 243 shares @ 92
+2025-05-02 11:04:04,805 - INFO - User User_3 generated order: Order(3:: buy @ 92 for 243 by User_3)
+2025-05-02 11:04:04,805 - INFO - User_3 generated: Order(3:: buy @ 92 for 243 by User_3)
+2025-05-02 11:04:04,805 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+2 | User_3 | 110 | 41
+=====================
+=====================================
+Last Trade Price: None
+=====================================
+
+2025-05-02 11:04:04,805 - DEBUG - Active order: Order(3:: buy @ 92 for 243 by User_3)
+2025-05-02 11:04:04,805 - DEBUG - Matching order now... Order(3:: buy @ 92 for 243 by User_3)
+2025-05-02 11:04:04,805 - DEBUG - No more matches possible for active order: Order(3:: buy @ 92 for 243 by User_3).
+2025-05-02 11:04:04,805 - DEBUG - Processing matched orders: [] with active order: Order(3:: buy @ 92 for 243 by User_3)
+2025-05-02 11:04:04,805 - DEBUG - No matched orders found.
+2025-05-02 11:04:04,805 - DEBUG - Active order added to buy orders: Order(3:: buy @ 92 for 243 by User_3)
+2025-05-02 11:04:04,805 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+2 | User_3 | 110 | 41
+=====================
+=====================================
+Last Trade Price: None
+=====================================
+
+2025-05-02 11:04:04,805 - DEBUG - Matched orders: []
+2025-05-02 11:04:04,805 - INFO - Active order after matching: Order(3:: buy @ 92 for 243 by User_3)
+2025-05-02 11:04:04,906 - INFO - 
+=== Transaction 4/50 ===
+2025-05-02 11:04:04,906 - DEBUG - The user can commit 91529 balance
+2025-05-02 11:04:04,906 - DEBUG - The user can commit 75039 balance after the order id 4 for 170 shares @ 97
+2025-05-02 11:04:04,906 - INFO - User User_6 generated order: Order(4:: buy @ 97 for 170 by User_6)
+2025-05-02 11:04:04,906 - INFO - User_6 generated: Order(4:: buy @ 97 for 170 by User_6)
+2025-05-02 11:04:04,906 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+2 | User_3 | 110 | 41
+=====================
+=====================================
+Last Trade Price: None
+=====================================
+
+2025-05-02 11:04:04,906 - DEBUG - Active order: Order(4:: buy @ 97 for 170 by User_6)
+2025-05-02 11:04:04,906 - DEBUG - Matching order now... Order(4:: buy @ 97 for 170 by User_6)
+2025-05-02 11:04:04,906 - DEBUG - No more matches possible for active order: Order(4:: buy @ 97 for 170 by User_6).
+2025-05-02 11:04:04,906 - DEBUG - Processing matched orders: [] with active order: Order(4:: buy @ 97 for 170 by User_6)
+2025-05-02 11:04:04,906 - DEBUG - No matched orders found.
+2025-05-02 11:04:04,906 - DEBUG - Active order added to buy orders: Order(4:: buy @ 97 for 170 by User_6)
+2025-05-02 11:04:04,906 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+2 | User_3 | 110 | 41
+=====================
+=====================================
+Last Trade Price: None
+=====================================
+
+2025-05-02 11:04:04,906 - DEBUG - Matched orders: []
+2025-05-02 11:04:04,906 - INFO - Active order after matching: Order(4:: buy @ 97 for 170 by User_6)
+2025-05-02 11:04:05,008 - INFO - 
+=== Transaction 5/50 ===
+2025-05-02 11:04:05,008 - DEBUG - The user can commit 154449 balance
+2025-05-02 11:04:05,008 - DEBUG - The user can commit 145460 balance after the order id 5 for 89 shares @ 101
+2025-05-02 11:04:05,008 - INFO - User User_7 generated order: Order(5:: buy @ 101 for 89 by User_7)
+2025-05-02 11:04:05,008 - INFO - User_7 generated: Order(5:: buy @ 101 for 89 by User_7)
+2025-05-02 11:04:05,008 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+2 | User_3 | 110 | 41
+=====================
+=====================================
+Last Trade Price: None
+=====================================
+
+2025-05-02 11:04:05,008 - DEBUG - Active order: Order(5:: buy @ 101 for 89 by User_7)
+2025-05-02 11:04:05,008 - DEBUG - Matching order now... Order(5:: buy @ 101 for 89 by User_7)
+2025-05-02 11:04:05,008 - DEBUG - No more matches possible for active order: Order(5:: buy @ 101 for 89 by User_7).
+2025-05-02 11:04:05,008 - DEBUG - Processing matched orders: [] with active order: Order(5:: buy @ 101 for 89 by User_7)
+2025-05-02 11:04:05,008 - DEBUG - No matched orders found.
+2025-05-02 11:04:05,008 - DEBUG - Active order added to buy orders: Order(5:: buy @ 101 for 89 by User_7)
+2025-05-02 11:04:05,008 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+2 | User_3 | 110 | 41
+=====================
+=====================================
+Last Trade Price: None
+=====================================
+
+2025-05-02 11:04:05,008 - DEBUG - Matched orders: []
+2025-05-02 11:04:05,008 - INFO - Active order after matching: Order(5:: buy @ 101 for 89 by User_7)
+2025-05-02 11:04:05,110 - INFO - 
+=== Transaction 6/50 ===
+2025-05-02 11:04:05,110 - DEBUG - The user can commit 101626 balance
+2025-05-02 11:04:05,110 - DEBUG - The user can commit 61261 balance after the order id 6 for 345 shares @ 117
+2025-05-02 11:04:05,110 - INFO - User User_1 generated order: Order(6:: buy @ 117 for 345 by User_1)
+2025-05-02 11:04:05,110 - INFO - User_1 generated: Order(6:: buy @ 117 for 345 by User_1)
+2025-05-02 11:04:05,110 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+2 | User_3 | 110 | 41
+=====================
+=====================================
+Last Trade Price: None
+=====================================
+
+2025-05-02 11:04:05,110 - DEBUG - Active order: Order(6:: buy @ 117 for 345 by User_1)
+2025-05-02 11:04:05,110 - DEBUG - Matching order now... Order(6:: buy @ 117 for 345 by User_1)
+2025-05-02 11:04:05,110 - DEBUG - Matched order: Order(2:: sell @ 110 for 0 by User_3) with active order: Order(6:: buy @ 117 for 345 by User_1), qty_to_match: 304
+2025-05-02 11:04:05,110 - DEBUG - Processing matched orders: [Order(2:: sell @ 110 for 0 by User_3)] with active order: Order(6:: buy @ 117 for 345 by User_1)
+2025-05-02 11:04:05,110 - DEBUG - Last trade price set to: 110.0
+2025-05-02 11:04:05,110 - DEBUG - Matched orders: [Order(2:: sell @ 110 for 0 by User_3)]
+2025-05-02 11:04:05,110 - INFO - User User_3 sold 41 shares @ 110.00. New balance: 111905.00, shares: 69
+2025-05-02 11:04:05,110 - INFO - ROUTE A !!! User User_3: Order 2 partially/fully executed for 41 shares at 110[0m
+2025-05-02 11:04:05,110 - INFO - User User_1 bought 41 shares @ 110.00. New balance: 97116.00, shares: 145
+2025-05-02 11:04:05,110 - INFO - ROUTE D !!! User User_1: Order 6 partially/fully executed for 41 shares at 110.0[0m
+2025-05-02 11:04:05,110 - DEBUG - Partial match, remaining order: Order(6:: buy @ 117 for 304 by User_1), adding to buy orders.
+2025-05-02 11:04:05,110 - INFO - Global net balance check: Initial: 789764, Final: 789764.0, Change: 0.0
+2025-05-02 11:04:05,110 - INFO - Global net shares check: Initial: 834, Final: 834, Change: 0
+2025-05-02 11:04:05,110 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+6 | User_1 | 117 | 304
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 110.0
+=====================================
+
+2025-05-02 11:04:05,110 - DEBUG - Matched orders: [Order(2:: sell @ 110 for 0 by User_3)]
+2025-05-02 11:04:05,110 - INFO - Active order after matching: Order(6:: buy @ 117 for 304 by User_1)
+2025-05-02 11:04:05,211 - INFO - 
+=== Transaction 7/50 ===
+2025-05-02 11:04:05,211 - DEBUG - The user can commit 126 shares
+2025-05-02 11:04:05,211 - DEBUG - The user can commit 80 shares after the order id 7 for 46 shares @ 109
+2025-05-02 11:04:05,211 - INFO - User User_4 generated order: Order(7:: sell @ 109 for 46 by User_4)
+2025-05-02 11:04:05,211 - INFO - User_4 generated: Order(7:: sell @ 109 for 46 by User_4)
+2025-05-02 11:04:05,211 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+6 | User_1 | 117 | 304
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 110.0
+=====================================
+
+2025-05-02 11:04:05,211 - DEBUG - Active order: Order(7:: sell @ 109 for 46 by User_4)
+2025-05-02 11:04:05,211 - DEBUG - Matching order now... Order(7:: sell @ 109 for 46 by User_4)
+2025-05-02 11:04:05,211 - DEBUG - Matched order: Order(6:: buy @ 117 for 258 by User_1) with active order: Order(7:: sell @ 109 for 46 by User_4), qty_to_match: 0
+2025-05-02 11:04:05,211 - INFO - Active order was fully matched: Order(7:: sell @ 109 for 46 by User_4) with orders, proceeding to process matched orders.
+2025-05-02 11:04:05,211 - DEBUG - Processing matched orders: [Order(6:: buy @ 117 for 258 by User_1)] with active order: Order(7:: sell @ 109 for 46 by User_4)
+2025-05-02 11:04:05,211 - DEBUG - Last trade price set to: 117.0
+2025-05-02 11:04:05,211 - DEBUG - Matched orders: [Order(6:: buy @ 117 for 258 by User_1)]
+2025-05-02 11:04:05,211 - DEBUG - Partial match, remaining order: Order(6:: buy @ 117 for 258 by User_1), adding to buy orders.
+2025-05-02 11:04:05,211 - INFO - User User_1 bought 46 shares @ 117.00. New balance: 91734.00, shares: 191
+2025-05-02 11:04:05,211 - INFO - ROUTE C !!! User User_1: Order 6 partially/fully executed for 46 shares at 117[0m
+2025-05-02 11:04:05,211 - INFO - User User_4 sold 46 shares @ 117.00. New balance: 120266.00, shares: 80
+2025-05-02 11:04:05,211 - INFO - ROUTE D !!! User User_4: Order 7 partially/fully executed for 46 shares at 117.0[0m
+2025-05-02 11:04:05,211 - INFO - Global net balance check: Initial: 789764, Final: 789764.0, Change: 0.0
+2025-05-02 11:04:05,211 - INFO - Global net shares check: Initial: 834, Final: 834, Change: 0
+2025-05-02 11:04:05,211 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+6 | User_1 | 117 | 258
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 117.0
+=====================================
+
+2025-05-02 11:04:05,211 - DEBUG - Matched orders: [Order(6:: buy @ 117 for 258 by User_1)]
+2025-05-02 11:04:05,211 - INFO - Active order after matching: Order(7:: sell @ 109 for 46 by User_4)
+2025-05-02 11:04:05,313 - INFO - 
+=== Transaction 8/50 ===
+2025-05-02 11:04:05,313 - DEBUG - The user can commit 150264 balance
+2025-05-02 11:04:05,313 - DEBUG - The user can commit 103176 balance after the order id 8 for 436 shares @ 108
+2025-05-02 11:04:05,313 - INFO - User User_5 generated order: Order(8:: buy @ 108 for 436 by User_5)
+2025-05-02 11:04:05,313 - INFO - User_5 generated: Order(8:: buy @ 108 for 436 by User_5)
+2025-05-02 11:04:05,313 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+6 | User_1 | 117 | 258
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 117.0
+=====================================
+
+2025-05-02 11:04:05,313 - DEBUG - Active order: Order(8:: buy @ 108 for 436 by User_5)
+2025-05-02 11:04:05,313 - DEBUG - Matching order now... Order(8:: buy @ 108 for 436 by User_5)
+2025-05-02 11:04:05,313 - DEBUG - Processing matched orders: [] with active order: Order(8:: buy @ 108 for 436 by User_5)
+2025-05-02 11:04:05,313 - DEBUG - No matched orders found.
+2025-05-02 11:04:05,313 - DEBUG - Active order added to buy orders: Order(8:: buy @ 108 for 436 by User_5)
+2025-05-02 11:04:05,313 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+6 | User_1 | 117 | 258
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 117.0
+=====================================
+
+2025-05-02 11:04:05,313 - DEBUG - Matched orders: []
+2025-05-02 11:04:05,313 - INFO - Active order after matching: Order(8:: buy @ 108 for 436 by User_5)
+2025-05-02 11:04:05,414 - INFO - 
+=== Transaction 9/50 ===
+2025-05-02 11:04:05,414 - DEBUG - The user can commit 69617 balance
+2025-05-02 11:04:05,414 - DEBUG - The user can commit 48897 balance after the order id 9 for 140 shares @ 148
+2025-05-02 11:04:05,414 - INFO - User User_2 generated order: Order(9:: buy @ 148 for 140 by User_2)
+2025-05-02 11:04:05,414 - INFO - User_2 generated: Order(9:: buy @ 148 for 140 by User_2)
+2025-05-02 11:04:05,414 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+6 | User_1 | 117 | 258
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 117.0
+=====================================
+
+2025-05-02 11:04:05,414 - DEBUG - Active order: Order(9:: buy @ 148 for 140 by User_2)
+2025-05-02 11:04:05,414 - DEBUG - Matching order now... Order(9:: buy @ 148 for 140 by User_2)
+2025-05-02 11:04:05,414 - DEBUG - Processing matched orders: [] with active order: Order(9:: buy @ 148 for 140 by User_2)
+2025-05-02 11:04:05,414 - DEBUG - No matched orders found.
+2025-05-02 11:04:05,414 - DEBUG - Active order added to buy orders: Order(9:: buy @ 148 for 140 by User_2)
+2025-05-02 11:04:05,414 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+9 | User_2 | 148 | 140
+6 | User_1 | 117 | 258
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 117.0
+=====================================
+
+2025-05-02 11:04:05,414 - DEBUG - Matched orders: []
+2025-05-02 11:04:05,414 - INFO - Active order after matching: Order(9:: buy @ 148 for 140 by User_2)
+2025-05-02 11:04:05,515 - INFO - 
+=== Transaction 10/50 ===
+2025-05-02 11:04:05,515 - DEBUG - The user can commit 152 shares
+2025-05-02 11:04:05,515 - DEBUG - The user can commit 112 shares after the order id 10 for 40 shares @ 134
+2025-05-02 11:04:05,515 - INFO - User User_7 generated order: Order(10:: sell @ 134 for 40 by User_7)
+2025-05-02 11:04:05,515 - INFO - User_7 generated: Order(10:: sell @ 134 for 40 by User_7)
+2025-05-02 11:04:05,515 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+9 | User_2 | 148 | 140
+6 | User_1 | 117 | 258
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 117.0
+=====================================
+
+2025-05-02 11:04:05,515 - DEBUG - Active order: Order(10:: sell @ 134 for 40 by User_7)
+2025-05-02 11:04:05,515 - DEBUG - Matching order now... Order(10:: sell @ 134 for 40 by User_7)
+2025-05-02 11:04:05,515 - DEBUG - Matched order: Order(9:: buy @ 148 for 100 by User_2) with active order: Order(10:: sell @ 134 for 40 by User_7), qty_to_match: 0
+2025-05-02 11:04:05,515 - INFO - Active order was fully matched: Order(10:: sell @ 134 for 40 by User_7) with orders, proceeding to process matched orders.
+2025-05-02 11:04:05,515 - DEBUG - Processing matched orders: [Order(9:: buy @ 148 for 100 by User_2)] with active order: Order(10:: sell @ 134 for 40 by User_7)
+2025-05-02 11:04:05,515 - DEBUG - Last trade price set to: 148.0
+2025-05-02 11:04:05,515 - DEBUG - Matched orders: [Order(9:: buy @ 148 for 100 by User_2)]
+2025-05-02 11:04:05,515 - DEBUG - Partial match, remaining order: Order(9:: buy @ 148 for 100 by User_2), adding to buy orders.
+2025-05-02 11:04:05,515 - INFO - User User_2 bought 40 shares @ 148.00. New balance: 63697.00, shares: 151
+2025-05-02 11:04:05,515 - INFO - ROUTE C !!! User User_2: Order 9 partially/fully executed for 40 shares at 148[0m
+2025-05-02 11:04:05,515 - INFO - User User_7 sold 40 shares @ 148.00. New balance: 160369.00, shares: 112
+2025-05-02 11:04:05,515 - INFO - ROUTE D !!! User User_7: Order 10 partially/fully executed for 40 shares at 148.0[0m
+2025-05-02 11:04:05,515 - INFO - Global net balance check: Initial: 789764, Final: 789764.0, Change: 0.0
+2025-05-02 11:04:05,515 - INFO - Global net shares check: Initial: 834, Final: 834, Change: 0
+2025-05-02 11:04:05,515 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+9 | User_2 | 148 | 100
+6 | User_1 | 117 | 258
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 148.0
+=====================================
+
+2025-05-02 11:04:05,515 - DEBUG - Matched orders: [Order(9:: buy @ 148 for 100 by User_2)]
+2025-05-02 11:04:05,515 - INFO - Active order after matching: Order(10:: sell @ 134 for 40 by User_7)
+2025-05-02 11:04:05,515 - INFO - 
+Order Book State after 10 transactions:
+2025-05-02 11:04:05,515 - INFO -  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+9 | User_2 | 148 | 100
+6 | User_1 | 117 | 258
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 148.0
+=====================================
+
+2025-05-02 11:04:05,617 - INFO - 
+=== Transaction 11/50 ===
+2025-05-02 11:04:05,617 - DEBUG - The user can commit 89549 balance
+2025-05-02 11:04:05,617 - DEBUG - The user can commit 63629 balance after the order id 11 for 144 shares @ 180
+2025-05-02 11:04:05,617 - INFO - User User_3 generated order: Order(11:: buy @ 180 for 144 by User_3)
+2025-05-02 11:04:05,617 - INFO - User_3 generated: Order(11:: buy @ 180 for 144 by User_3)
+2025-05-02 11:04:05,617 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+9 | User_2 | 148 | 100
+6 | User_1 | 117 | 258
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 148.0
+=====================================
+
+2025-05-02 11:04:05,617 - DEBUG - Active order: Order(11:: buy @ 180 for 144 by User_3)
+2025-05-02 11:04:05,617 - DEBUG - Matching order now... Order(11:: buy @ 180 for 144 by User_3)
+2025-05-02 11:04:05,617 - DEBUG - Processing matched orders: [] with active order: Order(11:: buy @ 180 for 144 by User_3)
+2025-05-02 11:04:05,617 - DEBUG - No matched orders found.
+2025-05-02 11:04:05,617 - DEBUG - Active order added to buy orders: Order(11:: buy @ 180 for 144 by User_3)
+2025-05-02 11:04:05,617 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+11 | User_3 | 180 | 144
+9 | User_2 | 148 | 100
+6 | User_1 | 117 | 258
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 148.0
+=====================================
+
+2025-05-02 11:04:05,617 - DEBUG - Matched orders: []
+2025-05-02 11:04:05,617 - INFO - Active order after matching: Order(11:: buy @ 180 for 144 by User_3)
+2025-05-02 11:04:05,718 - INFO - 
+=== Transaction 12/50 ===
+2025-05-02 11:04:05,718 - DEBUG - The user can commit 80 shares
+2025-05-02 11:04:05,718 - DEBUG - The user can commit 75 shares after the order id 12 for 5 shares @ 128
+2025-05-02 11:04:05,718 - INFO - User User_4 generated order: Order(12:: sell @ 128 for 5 by User_4)
+2025-05-02 11:04:05,718 - INFO - User_4 generated: Order(12:: sell @ 128 for 5 by User_4)
+2025-05-02 11:04:05,718 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+11 | User_3 | 180 | 144
+9 | User_2 | 148 | 100
+6 | User_1 | 117 | 258
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 148.0
+=====================================
+
+2025-05-02 11:04:05,718 - DEBUG - Active order: Order(12:: sell @ 128 for 5 by User_4)
+2025-05-02 11:04:05,718 - DEBUG - Matching order now... Order(12:: sell @ 128 for 5 by User_4)
+2025-05-02 11:04:05,718 - DEBUG - Matched order: Order(11:: buy @ 180 for 139 by User_3) with active order: Order(12:: sell @ 128 for 5 by User_4), qty_to_match: 0
+2025-05-02 11:04:05,718 - INFO - Active order was fully matched: Order(12:: sell @ 128 for 5 by User_4) with orders, proceeding to process matched orders.
+2025-05-02 11:04:05,718 - DEBUG - Processing matched orders: [Order(11:: buy @ 180 for 139 by User_3)] with active order: Order(12:: sell @ 128 for 5 by User_4)
+2025-05-02 11:04:05,718 - DEBUG - Last trade price set to: 180.0
+2025-05-02 11:04:05,718 - DEBUG - Matched orders: [Order(11:: buy @ 180 for 139 by User_3)]
+2025-05-02 11:04:05,718 - DEBUG - Partial match, remaining order: Order(11:: buy @ 180 for 139 by User_3), adding to buy orders.
+2025-05-02 11:04:05,718 - INFO - User User_3 bought 5 shares @ 180.00. New balance: 111005.00, shares: 74
+2025-05-02 11:04:05,718 - INFO - ROUTE C !!! User User_3: Order 11 partially/fully executed for 5 shares at 180[0m
+2025-05-02 11:04:05,718 - INFO - User User_4 sold 5 shares @ 180.00. New balance: 121166.00, shares: 75
+2025-05-02 11:04:05,718 - INFO - ROUTE D !!! User User_4: Order 12 partially/fully executed for 5 shares at 180.0[0m
+2025-05-02 11:04:05,718 - INFO - Global net balance check: Initial: 789764, Final: 789764.0, Change: 0.0
+2025-05-02 11:04:05,718 - INFO - Global net shares check: Initial: 834, Final: 834, Change: 0
+2025-05-02 11:04:05,718 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+11 | User_3 | 180 | 139
+9 | User_2 | 148 | 100
+6 | User_1 | 117 | 258
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 180.0
+=====================================
+
+2025-05-02 11:04:05,718 - DEBUG - Matched orders: [Order(11:: buy @ 180 for 139 by User_3)]
+2025-05-02 11:04:05,718 - INFO - Active order after matching: Order(12:: sell @ 128 for 5 by User_4)
+2025-05-02 11:04:05,820 - INFO - 
+=== Transaction 13/50 ===
+2025-05-02 11:04:05,820 - DEBUG - The user can commit 61548.0 balance
+2025-05-02 11:04:05,820 - DEBUG - The user can commit 43838.0 balance after the order id 13 for 154 shares @ 115
+2025-05-02 11:04:05,820 - INFO - User User_1 generated order: Order(13:: buy @ 115 for 154 by User_1)
+2025-05-02 11:04:05,820 - INFO - User_1 generated: Order(13:: buy @ 115 for 154 by User_1)
+2025-05-02 11:04:05,820 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+11 | User_3 | 180 | 139
+9 | User_2 | 148 | 100
+6 | User_1 | 117 | 258
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 180.0
+=====================================
+
+2025-05-02 11:04:05,820 - DEBUG - Active order: Order(13:: buy @ 115 for 154 by User_1)
+2025-05-02 11:04:05,820 - DEBUG - Matching order now... Order(13:: buy @ 115 for 154 by User_1)
+2025-05-02 11:04:05,820 - DEBUG - Processing matched orders: [] with active order: Order(13:: buy @ 115 for 154 by User_1)
+2025-05-02 11:04:05,820 - DEBUG - No matched orders found.
+2025-05-02 11:04:05,820 - DEBUG - Active order added to buy orders: Order(13:: buy @ 115 for 154 by User_1)
+2025-05-02 11:04:05,820 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+11 | User_3 | 180 | 139
+9 | User_2 | 148 | 100
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 180.0
+=====================================
+
+2025-05-02 11:04:05,820 - DEBUG - Matched orders: []
+2025-05-02 11:04:05,820 - INFO - Active order after matching: Order(13:: buy @ 115 for 154 by User_1)
+2025-05-02 11:04:05,921 - INFO - 
+=== Transaction 14/50 ===
+2025-05-02 11:04:05,921 - DEBUG - The user can commit 191 shares
+2025-05-02 11:04:05,921 - DEBUG - The user can commit 186 shares after the order id 14 for 5 shares @ 205
+2025-05-02 11:04:05,921 - INFO - User User_1 generated order: Order(14:: sell @ 205 for 5 by User_1)
+2025-05-02 11:04:05,921 - INFO - User_1 generated: Order(14:: sell @ 205 for 5 by User_1)
+2025-05-02 11:04:05,921 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+11 | User_3 | 180 | 139
+9 | User_2 | 148 | 100
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 180.0
+=====================================
+
+2025-05-02 11:04:05,921 - DEBUG - Active order: Order(14:: sell @ 205 for 5 by User_1)
+2025-05-02 11:04:05,921 - DEBUG - Matching order now... Order(14:: sell @ 205 for 5 by User_1)
+2025-05-02 11:04:05,921 - DEBUG - No more matches possible for active order: Order(14:: sell @ 205 for 5 by User_1).
+2025-05-02 11:04:05,922 - DEBUG - Processing matched orders: [] with active order: Order(14:: sell @ 205 for 5 by User_1)
+2025-05-02 11:04:05,922 - DEBUG - No matched orders found.
+2025-05-02 11:04:05,922 - DEBUG - Active order added to sell orders: Order(14:: sell @ 205 for 5 by User_1)
+2025-05-02 11:04:05,922 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+11 | User_3 | 180 | 139
+9 | User_2 | 148 | 100
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+14 | User_1 | 205 | 5
+=====================
+=====================================
+Last Trade Price: 180.0
+=====================================
+
+2025-05-02 11:04:05,922 - DEBUG - Matched orders: []
+2025-05-02 11:04:05,922 - INFO - Active order after matching: Order(14:: sell @ 205 for 5 by User_1)
+2025-05-02 11:04:06,023 - INFO - 
+=== Transaction 15/50 ===
+2025-05-02 11:04:06,023 - DEBUG - The user can commit 98901.0 balance
+2025-05-02 11:04:06,023 - DEBUG - The user can commit 77590.0 balance after the order id 15 for 101 shares @ 211
+2025-05-02 11:04:06,023 - INFO - User User_4 generated order: Order(15:: buy @ 211 for 101 by User_4)
+2025-05-02 11:04:06,023 - INFO - User_4 generated: Order(15:: buy @ 211 for 101 by User_4)
+2025-05-02 11:04:06,023 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+11 | User_3 | 180 | 139
+9 | User_2 | 148 | 100
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+14 | User_1 | 205 | 5
+=====================
+=====================================
+Last Trade Price: 180.0
+=====================================
+
+2025-05-02 11:04:06,023 - DEBUG - Active order: Order(15:: buy @ 211 for 101 by User_4)
+2025-05-02 11:04:06,023 - DEBUG - Matching order now... Order(15:: buy @ 211 for 101 by User_4)
+2025-05-02 11:04:06,023 - DEBUG - Matched order: Order(14:: sell @ 205 for 0 by User_1) with active order: Order(15:: buy @ 211 for 101 by User_4), qty_to_match: 96
+2025-05-02 11:04:06,023 - DEBUG - Processing matched orders: [Order(14:: sell @ 205 for 0 by User_1)] with active order: Order(15:: buy @ 211 for 101 by User_4)
+2025-05-02 11:04:06,023 - DEBUG - Last trade price set to: 205.0
+2025-05-02 11:04:06,023 - DEBUG - Matched orders: [Order(14:: sell @ 205 for 0 by User_1)]
+2025-05-02 11:04:06,023 - INFO - User User_1 sold 5 shares @ 205.00. New balance: 92759.00, shares: 186
+2025-05-02 11:04:06,023 - INFO - ROUTE A !!! User User_1: Order 14 partially/fully executed for 5 shares at 205[0m
+2025-05-02 11:04:06,023 - INFO - User User_4 bought 5 shares @ 205.00. New balance: 120141.00, shares: 80
+2025-05-02 11:04:06,023 - INFO - ROUTE D !!! User User_4: Order 15 partially/fully executed for 5 shares at 205.0[0m
+2025-05-02 11:04:06,023 - DEBUG - Partial match, remaining order: Order(15:: buy @ 211 for 96 by User_4), adding to buy orders.
+2025-05-02 11:04:06,023 - INFO - Global net balance check: Initial: 789764, Final: 789764.0, Change: 0.0
+2025-05-02 11:04:06,023 - INFO - Global net shares check: Initial: 834, Final: 834, Change: 0
+2025-05-02 11:04:06,023 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+15 | User_4 | 211 | 96
+11 | User_3 | 180 | 139
+9 | User_2 | 148 | 100
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 205.0
+=====================================
+
+2025-05-02 11:04:06,023 - DEBUG - Matched orders: [Order(14:: sell @ 205 for 0 by User_1)]
+2025-05-02 11:04:06,023 - INFO - Active order after matching: Order(15:: buy @ 211 for 96 by User_4)
+2025-05-02 11:04:06,125 - INFO - 
+=== Transaction 16/50 ===
+2025-05-02 11:04:06,125 - DEBUG - The user can commit 44863.0 balance
+2025-05-02 11:04:06,125 - DEBUG - The user can commit 33291.0 balance after the order id 16 for 44 shares @ 263
+2025-05-02 11:04:06,125 - INFO - User User_1 generated order: Order(16:: buy @ 263 for 44 by User_1)
+2025-05-02 11:04:06,125 - INFO - User_1 generated: Order(16:: buy @ 263 for 44 by User_1)
+2025-05-02 11:04:06,125 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+15 | User_4 | 211 | 96
+11 | User_3 | 180 | 139
+9 | User_2 | 148 | 100
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 205.0
+=====================================
+
+2025-05-02 11:04:06,125 - DEBUG - Active order: Order(16:: buy @ 263 for 44 by User_1)
+2025-05-02 11:04:06,125 - DEBUG - Matching order now... Order(16:: buy @ 263 for 44 by User_1)
+2025-05-02 11:04:06,125 - DEBUG - Processing matched orders: [] with active order: Order(16:: buy @ 263 for 44 by User_1)
+2025-05-02 11:04:06,125 - DEBUG - No matched orders found.
+2025-05-02 11:04:06,125 - DEBUG - Active order added to buy orders: Order(16:: buy @ 263 for 44 by User_1)
+2025-05-02 11:04:06,125 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+16 | User_1 | 263 | 44
+15 | User_4 | 211 | 96
+11 | User_3 | 180 | 139
+9 | User_2 | 148 | 100
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 205.0
+=====================================
+
+2025-05-02 11:04:06,125 - DEBUG - Matched orders: []
+2025-05-02 11:04:06,125 - INFO - Active order after matching: Order(16:: buy @ 263 for 44 by User_1)
+2025-05-02 11:04:06,226 - INFO - 
+=== Transaction 17/50 ===
+2025-05-02 11:04:06,226 - DEBUG - The user can commit 151380.0 balance
+2025-05-02 11:04:06,226 - DEBUG - The user can commit 67876.0 balance after the order id 17 for 307 shares @ 272
+2025-05-02 11:04:06,226 - INFO - User User_7 generated order: Order(17:: buy @ 272 for 307 by User_7)
+2025-05-02 11:04:06,226 - INFO - User_7 generated: Order(17:: buy @ 272 for 307 by User_7)
+2025-05-02 11:04:06,226 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+16 | User_1 | 263 | 44
+15 | User_4 | 211 | 96
+11 | User_3 | 180 | 139
+9 | User_2 | 148 | 100
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 205.0
+=====================================
+
+2025-05-02 11:04:06,226 - DEBUG - Active order: Order(17:: buy @ 272 for 307 by User_7)
+2025-05-02 11:04:06,226 - DEBUG - Matching order now... Order(17:: buy @ 272 for 307 by User_7)
+2025-05-02 11:04:06,226 - DEBUG - Processing matched orders: [] with active order: Order(17:: buy @ 272 for 307 by User_7)
+2025-05-02 11:04:06,226 - DEBUG - No matched orders found.
+2025-05-02 11:04:06,226 - DEBUG - Active order added to buy orders: Order(17:: buy @ 272 for 307 by User_7)
+2025-05-02 11:04:06,226 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+17 | User_7 | 272 | 307
+16 | User_1 | 263 | 44
+15 | User_4 | 211 | 96
+11 | User_3 | 180 | 139
+9 | User_2 | 148 | 100
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 205.0
+=====================================
+
+2025-05-02 11:04:06,226 - DEBUG - Matched orders: []
+2025-05-02 11:04:06,226 - INFO - Active order after matching: Order(17:: buy @ 272 for 307 by User_7)
+2025-05-02 11:04:06,328 - INFO - 
+=== Transaction 18/50 ===
+2025-05-02 11:04:06,328 - DEBUG - The user can commit 103176 balance
+2025-05-02 11:04:06,328 - DEBUG - The user can commit 102168 balance after the order id 18 for 7 shares @ 144
+2025-05-02 11:04:06,328 - INFO - User User_5 generated order: Order(18:: buy @ 144 for 7 by User_5)
+2025-05-02 11:04:06,328 - INFO - User_5 generated: Order(18:: buy @ 144 for 7 by User_5)
+2025-05-02 11:04:06,328 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+17 | User_7 | 272 | 307
+16 | User_1 | 263 | 44
+15 | User_4 | 211 | 96
+11 | User_3 | 180 | 139
+9 | User_2 | 148 | 100
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 205.0
+=====================================
+
+2025-05-02 11:04:06,328 - DEBUG - Active order: Order(18:: buy @ 144 for 7 by User_5)
+2025-05-02 11:04:06,328 - DEBUG - Matching order now... Order(18:: buy @ 144 for 7 by User_5)
+2025-05-02 11:04:06,328 - DEBUG - Processing matched orders: [] with active order: Order(18:: buy @ 144 for 7 by User_5)
+2025-05-02 11:04:06,328 - DEBUG - No matched orders found.
+2025-05-02 11:04:06,328 - DEBUG - Active order added to buy orders: Order(18:: buy @ 144 for 7 by User_5)
+2025-05-02 11:04:06,328 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+17 | User_7 | 272 | 307
+16 | User_1 | 263 | 44
+15 | User_4 | 211 | 96
+11 | User_3 | 180 | 139
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 205.0
+=====================================
+
+2025-05-02 11:04:06,328 - DEBUG - Matched orders: []
+2025-05-02 11:04:06,328 - INFO - Active order after matching: Order(18:: buy @ 144 for 7 by User_5)
+2025-05-02 11:04:06,429 - INFO - 
+=== Transaction 19/50 ===
+2025-05-02 11:04:06,429 - DEBUG - The user can commit 102168 balance
+2025-05-02 11:04:06,429 - DEBUG - The user can commit 98748 balance after the order id 19 for 12 shares @ 285
+2025-05-02 11:04:06,429 - INFO - User User_5 generated order: Order(19:: buy @ 285 for 12 by User_5)
+2025-05-02 11:04:06,429 - INFO - User_5 generated: Order(19:: buy @ 285 for 12 by User_5)
+2025-05-02 11:04:06,429 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+17 | User_7 | 272 | 307
+16 | User_1 | 263 | 44
+15 | User_4 | 211 | 96
+11 | User_3 | 180 | 139
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 205.0
+=====================================
+
+2025-05-02 11:04:06,429 - DEBUG - Active order: Order(19:: buy @ 285 for 12 by User_5)
+2025-05-02 11:04:06,429 - DEBUG - Matching order now... Order(19:: buy @ 285 for 12 by User_5)
+2025-05-02 11:04:06,429 - DEBUG - Processing matched orders: [] with active order: Order(19:: buy @ 285 for 12 by User_5)
+2025-05-02 11:04:06,429 - DEBUG - No matched orders found.
+2025-05-02 11:04:06,429 - DEBUG - Active order added to buy orders: Order(19:: buy @ 285 for 12 by User_5)
+2025-05-02 11:04:06,429 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+19 | User_5 | 285 | 12
+17 | User_7 | 272 | 307
+16 | User_1 | 263 | 44
+15 | User_4 | 211 | 96
+11 | User_3 | 180 | 139
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 205.0
+=====================================
+
+2025-05-02 11:04:06,429 - DEBUG - Matched orders: []
+2025-05-02 11:04:06,429 - INFO - Active order after matching: Order(19:: buy @ 285 for 12 by User_5)
+2025-05-02 11:04:06,530 - INFO - 
+=== Transaction 20/50 ===
+2025-05-02 11:04:06,530 - DEBUG - The user can commit 63629 balance
+2025-05-02 11:04:06,530 - DEBUG - The user can commit 47772 balance after the order id 20 for 101 shares @ 157
+2025-05-02 11:04:06,530 - INFO - User User_3 generated order: Order(20:: buy @ 157 for 101 by User_3)
+2025-05-02 11:04:06,530 - INFO - User_3 generated: Order(20:: buy @ 157 for 101 by User_3)
+2025-05-02 11:04:06,530 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+19 | User_5 | 285 | 12
+17 | User_7 | 272 | 307
+16 | User_1 | 263 | 44
+15 | User_4 | 211 | 96
+11 | User_3 | 180 | 139
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 205.0
+=====================================
+
+2025-05-02 11:04:06,530 - DEBUG - Active order: Order(20:: buy @ 157 for 101 by User_3)
+2025-05-02 11:04:06,530 - DEBUG - Matching order now... Order(20:: buy @ 157 for 101 by User_3)
+2025-05-02 11:04:06,530 - DEBUG - Processing matched orders: [] with active order: Order(20:: buy @ 157 for 101 by User_3)
+2025-05-02 11:04:06,530 - DEBUG - No matched orders found.
+2025-05-02 11:04:06,530 - DEBUG - Active order added to buy orders: Order(20:: buy @ 157 for 101 by User_3)
+2025-05-02 11:04:06,530 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+19 | User_5 | 285 | 12
+17 | User_7 | 272 | 307
+16 | User_1 | 263 | 44
+15 | User_4 | 211 | 96
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 205.0
+=====================================
+
+2025-05-02 11:04:06,530 - DEBUG - Matched orders: []
+2025-05-02 11:04:06,530 - INFO - Active order after matching: Order(20:: buy @ 157 for 101 by User_3)
+2025-05-02 11:04:06,530 - INFO - 
+Order Book State after 20 transactions:
+2025-05-02 11:04:06,530 - INFO -  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+19 | User_5 | 285 | 12
+17 | User_7 | 272 | 307
+16 | User_1 | 263 | 44
+15 | User_4 | 211 | 96
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 205.0
+=====================================
+
+2025-05-02 11:04:06,631 - INFO - 
+=== Transaction 21/50 ===
+2025-05-02 11:04:06,631 - DEBUG - The user can commit 77620.0 balance
+2025-05-02 11:04:06,631 - DEBUG - The user can commit 41188.0 balance after the order id 21 for 184 shares @ 198
+2025-05-02 11:04:06,631 - INFO - User User_4 generated order: Order(21:: buy @ 198 for 184 by User_4)
+2025-05-02 11:04:06,631 - INFO - User_4 generated: Order(21:: buy @ 198 for 184 by User_4)
+2025-05-02 11:04:06,631 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+19 | User_5 | 285 | 12
+17 | User_7 | 272 | 307
+16 | User_1 | 263 | 44
+15 | User_4 | 211 | 96
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 205.0
+=====================================
+
+2025-05-02 11:04:06,631 - DEBUG - Active order: Order(21:: buy @ 198 for 184 by User_4)
+2025-05-02 11:04:06,631 - DEBUG - Matching order now... Order(21:: buy @ 198 for 184 by User_4)
+2025-05-02 11:04:06,631 - DEBUG - Processing matched orders: [] with active order: Order(21:: buy @ 198 for 184 by User_4)
+2025-05-02 11:04:06,631 - DEBUG - No matched orders found.
+2025-05-02 11:04:06,631 - DEBUG - Active order added to buy orders: Order(21:: buy @ 198 for 184 by User_4)
+2025-05-02 11:04:06,631 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+19 | User_5 | 285 | 12
+17 | User_7 | 272 | 307
+16 | User_1 | 263 | 44
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 205.0
+=====================================
+
+2025-05-02 11:04:06,631 - DEBUG - Matched orders: []
+2025-05-02 11:04:06,631 - INFO - Active order after matching: Order(21:: buy @ 198 for 184 by User_4)
+2025-05-02 11:04:06,732 - INFO - 
+=== Transaction 22/50 ===
+2025-05-02 11:04:06,732 - DEBUG - The user can commit 112 shares
+2025-05-02 11:04:06,732 - DEBUG - The user can commit 98 shares after the order id 22 for 14 shares @ 247
+2025-05-02 11:04:06,732 - INFO - User User_7 generated order: Order(22:: sell @ 247 for 14 by User_7)
+2025-05-02 11:04:06,732 - INFO - User_7 generated: Order(22:: sell @ 247 for 14 by User_7)
+2025-05-02 11:04:06,732 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+19 | User_5 | 285 | 12
+17 | User_7 | 272 | 307
+16 | User_1 | 263 | 44
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 205.0
+=====================================
+
+2025-05-02 11:04:06,732 - DEBUG - Active order: Order(22:: sell @ 247 for 14 by User_7)
+2025-05-02 11:04:06,732 - DEBUG - Matching order now... Order(22:: sell @ 247 for 14 by User_7)
+2025-05-02 11:04:06,732 - DEBUG - Matched order: Order(19:: buy @ 285 for 0 by User_5) with active order: Order(22:: sell @ 247 for 14 by User_7), qty_to_match: 2
+2025-05-02 11:04:06,732 - DEBUG - Matched order: Order(17:: buy @ 272 for 305 by User_7) with active order: Order(22:: sell @ 247 for 14 by User_7), qty_to_match: 0
+2025-05-02 11:04:06,732 - INFO - Active order was fully matched: Order(22:: sell @ 247 for 14 by User_7) with orders, proceeding to process matched orders.
+2025-05-02 11:04:06,732 - DEBUG - Processing matched orders: [Order(19:: buy @ 285 for 0 by User_5), Order(17:: buy @ 272 for 305 by User_7)] with active order: Order(22:: sell @ 247 for 14 by User_7)
+2025-05-02 11:04:06,732 - DEBUG - Last trade price set to: 283.14285714285717
+2025-05-02 11:04:06,732 - DEBUG - Matched orders: [Order(19:: buy @ 285 for 0 by User_5), Order(17:: buy @ 272 for 305 by User_7)]
+2025-05-02 11:04:06,732 - INFO - User User_5 bought 12 shares @ 285.00. New balance: 146844.00, shares: 154
+2025-05-02 11:04:06,732 - INFO - ROUTE B !!! User User_5: Order 19 executed for 12 shares at 285[0m
+2025-05-02 11:04:06,732 - DEBUG - Partial match, remaining order: Order(17:: buy @ 272 for 305 by User_7), adding to buy orders.
+2025-05-02 11:04:06,732 - INFO - User User_7 bought 2 shares @ 272.00. New balance: 159825.00, shares: 114
+2025-05-02 11:04:06,732 - INFO - ROUTE C !!! User User_7: Order 17 partially/fully executed for 2 shares at 272[0m
+2025-05-02 11:04:06,732 - INFO - User User_7 sold 14 shares @ 283.14. New balance: 163789.00, shares: 100
+2025-05-02 11:04:06,732 - INFO - ROUTE D !!! User User_7: Order 22 partially/fully executed for 14 shares at 283.14285714285717[0m
+2025-05-02 11:04:06,732 - INFO - Global net balance check: Initial: 789764, Final: 789764.0, Change: 0.0
+2025-05-02 11:04:06,732 - INFO - Global net shares check: Initial: 834, Final: 834, Change: 0
+2025-05-02 11:04:06,732 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+17 | User_7 | 272 | 305
+16 | User_1 | 263 | 44
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 283.14285714285717
+=====================================
+
+2025-05-02 11:04:06,732 - DEBUG - Matched orders: [Order(19:: buy @ 285 for 0 by User_5), Order(17:: buy @ 272 for 305 by User_7)]
+2025-05-02 11:04:06,732 - INFO - Active order after matching: Order(22:: sell @ 247 for 14 by User_7)
+2025-05-02 11:04:06,834 - INFO - 
+=== Transaction 23/50 ===
+2025-05-02 11:04:06,834 - DEBUG - The user can commit 186 shares
+2025-05-02 11:04:06,834 - DEBUG - The user can commit 148 shares after the order id 23 for 38 shares @ 264
+2025-05-02 11:04:06,834 - INFO - User User_1 generated order: Order(23:: sell @ 264 for 38 by User_1)
+2025-05-02 11:04:06,834 - INFO - User_1 generated: Order(23:: sell @ 264 for 38 by User_1)
+2025-05-02 11:04:06,834 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+17 | User_7 | 272 | 305
+16 | User_1 | 263 | 44
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 283.14285714285717
+=====================================
+
+2025-05-02 11:04:06,834 - DEBUG - Active order: Order(23:: sell @ 264 for 38 by User_1)
+2025-05-02 11:04:06,834 - DEBUG - Matching order now... Order(23:: sell @ 264 for 38 by User_1)
+2025-05-02 11:04:06,834 - DEBUG - Matched order: Order(17:: buy @ 272 for 267 by User_7) with active order: Order(23:: sell @ 264 for 38 by User_1), qty_to_match: 0
+2025-05-02 11:04:06,834 - INFO - Active order was fully matched: Order(23:: sell @ 264 for 38 by User_1) with orders, proceeding to process matched orders.
+2025-05-02 11:04:06,834 - DEBUG - Processing matched orders: [Order(17:: buy @ 272 for 267 by User_7)] with active order: Order(23:: sell @ 264 for 38 by User_1)
+2025-05-02 11:04:06,834 - DEBUG - Last trade price set to: 272.0
+2025-05-02 11:04:06,834 - DEBUG - Matched orders: [Order(17:: buy @ 272 for 267 by User_7)]
+2025-05-02 11:04:06,834 - DEBUG - Partial match, remaining order: Order(17:: buy @ 272 for 267 by User_7), adding to buy orders.
+2025-05-02 11:04:06,834 - INFO - User User_7 bought 38 shares @ 272.00. New balance: 153453.00, shares: 138
+2025-05-02 11:04:06,834 - INFO - ROUTE C !!! User User_7: Order 17 partially/fully executed for 38 shares at 272[0m
+2025-05-02 11:04:06,834 - INFO - User User_1 sold 38 shares @ 272.00. New balance: 103095.00, shares: 148
+2025-05-02 11:04:06,834 - INFO - ROUTE D !!! User User_1: Order 23 partially/fully executed for 38 shares at 272.0[0m
+2025-05-02 11:04:06,834 - INFO - Global net balance check: Initial: 789764, Final: 789764.0, Change: 0.0
+2025-05-02 11:04:06,834 - INFO - Global net shares check: Initial: 834, Final: 834, Change: 0
+2025-05-02 11:04:06,834 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+17 | User_7 | 272 | 267
+16 | User_1 | 263 | 44
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 272.0
+=====================================
+
+2025-05-02 11:04:06,834 - DEBUG - Matched orders: [Order(17:: buy @ 272 for 267 by User_7)]
+2025-05-02 11:04:06,834 - INFO - Active order after matching: Order(23:: sell @ 264 for 38 by User_1)
+2025-05-02 11:04:06,936 - INFO - 
+=== Transaction 24/50 ===
+2025-05-02 11:04:06,936 - DEBUG - The user can commit 48897 balance
+2025-05-02 11:04:06,936 - DEBUG - The user can commit 45299 balance after the order id 24 for 14 shares @ 257
+2025-05-02 11:04:06,936 - INFO - User User_2 generated order: Order(24:: buy @ 257 for 14 by User_2)
+2025-05-02 11:04:06,936 - INFO - User_2 generated: Order(24:: buy @ 257 for 14 by User_2)
+2025-05-02 11:04:06,936 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+17 | User_7 | 272 | 267
+16 | User_1 | 263 | 44
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 272.0
+=====================================
+
+2025-05-02 11:04:06,936 - DEBUG - Active order: Order(24:: buy @ 257 for 14 by User_2)
+2025-05-02 11:04:06,936 - DEBUG - Matching order now... Order(24:: buy @ 257 for 14 by User_2)
+2025-05-02 11:04:06,936 - DEBUG - Processing matched orders: [] with active order: Order(24:: buy @ 257 for 14 by User_2)
+2025-05-02 11:04:06,936 - DEBUG - No matched orders found.
+2025-05-02 11:04:06,936 - DEBUG - Active order added to buy orders: Order(24:: buy @ 257 for 14 by User_2)
+2025-05-02 11:04:06,936 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+17 | User_7 | 272 | 267
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 272.0
+=====================================
+
+2025-05-02 11:04:06,936 - DEBUG - Matched orders: []
+2025-05-02 11:04:06,936 - INFO - Active order after matching: Order(24:: buy @ 257 for 14 by User_2)
+2025-05-02 11:04:07,037 - INFO - 
+=== Transaction 25/50 ===
+2025-05-02 11:04:07,037 - DEBUG - The user can commit 138 shares
+2025-05-02 11:04:07,037 - DEBUG - The user can commit 86 shares after the order id 25 for 52 shares @ 276
+2025-05-02 11:04:07,037 - INFO - User User_7 generated order: Order(25:: sell @ 276 for 52 by User_7)
+2025-05-02 11:04:07,037 - INFO - User_7 generated: Order(25:: sell @ 276 for 52 by User_7)
+2025-05-02 11:04:07,037 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+17 | User_7 | 272 | 267
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 272.0
+=====================================
+
+2025-05-02 11:04:07,037 - DEBUG - Active order: Order(25:: sell @ 276 for 52 by User_7)
+2025-05-02 11:04:07,037 - DEBUG - Matching order now... Order(25:: sell @ 276 for 52 by User_7)
+2025-05-02 11:04:07,037 - DEBUG - No more matches possible for active order: Order(25:: sell @ 276 for 52 by User_7).
+2025-05-02 11:04:07,037 - DEBUG - Processing matched orders: [] with active order: Order(25:: sell @ 276 for 52 by User_7)
+2025-05-02 11:04:07,037 - DEBUG - No matched orders found.
+2025-05-02 11:04:07,037 - DEBUG - Active order added to sell orders: Order(25:: sell @ 276 for 52 by User_7)
+2025-05-02 11:04:07,037 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+17 | User_7 | 272 | 267
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+25 | User_7 | 276 | 52
+=====================
+=====================================
+Last Trade Price: 272.0
+=====================================
+
+2025-05-02 11:04:07,037 - DEBUG - Matched orders: []
+2025-05-02 11:04:07,037 - INFO - Active order after matching: Order(25:: sell @ 276 for 52 by User_7)
+2025-05-02 11:04:07,138 - INFO - 
+=== Transaction 26/50 ===
+2025-05-02 11:04:07,138 - DEBUG - The user can commit 45299 balance
+2025-05-02 11:04:07,138 - DEBUG - The user can commit 35527 balance after the order id 26 for 28 shares @ 349
+2025-05-02 11:04:07,138 - INFO - User User_2 generated order: Order(26:: buy @ 349 for 28 by User_2)
+2025-05-02 11:04:07,138 - INFO - User_2 generated: Order(26:: buy @ 349 for 28 by User_2)
+2025-05-02 11:04:07,138 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+17 | User_7 | 272 | 267
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+25 | User_7 | 276 | 52
+=====================
+=====================================
+Last Trade Price: 272.0
+=====================================
+
+2025-05-02 11:04:07,138 - DEBUG - Active order: Order(26:: buy @ 349 for 28 by User_2)
+2025-05-02 11:04:07,138 - DEBUG - Matching order now... Order(26:: buy @ 349 for 28 by User_2)
+2025-05-02 11:04:07,138 - DEBUG - Matched order: Order(25:: sell @ 276 for 24 by User_7) with active order: Order(26:: buy @ 349 for 28 by User_2), qty_to_match: 0
+2025-05-02 11:04:07,138 - INFO - Active order was fully matched: Order(26:: buy @ 349 for 28 by User_2) with orders, proceeding to process matched orders.
+2025-05-02 11:04:07,138 - DEBUG - Processing matched orders: [Order(25:: sell @ 276 for 24 by User_7)] with active order: Order(26:: buy @ 349 for 28 by User_2)
+2025-05-02 11:04:07,138 - DEBUG - Last trade price set to: 276.0
+2025-05-02 11:04:07,138 - DEBUG - Matched orders: [Order(25:: sell @ 276 for 24 by User_7)]
+2025-05-02 11:04:07,138 - DEBUG - Partial match, remaining order: Order(25:: sell @ 276 for 24 by User_7), adding to sell orders.
+2025-05-02 11:04:07,138 - INFO - User User_7 sold 28 shares @ 276.00. New balance: 161181.00, shares: 110
+2025-05-02 11:04:07,138 - INFO - ROUTE A !!! User User_7: Order 25 partially/fully executed for 28 shares at 276[0m
+2025-05-02 11:04:07,138 - INFO - User User_2 bought 28 shares @ 276.00. New balance: 55969.00, shares: 179
+2025-05-02 11:04:07,138 - INFO - ROUTE D !!! User User_2: Order 26 partially/fully executed for 28 shares at 276.0[0m
+2025-05-02 11:04:07,138 - INFO - Global net balance check: Initial: 789764, Final: 789764.0, Change: 0.0
+2025-05-02 11:04:07,138 - INFO - Global net shares check: Initial: 834, Final: 834, Change: 0
+2025-05-02 11:04:07,138 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+17 | User_7 | 272 | 267
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+25 | User_7 | 276 | 24
+=====================
+=====================================
+Last Trade Price: 276.0
+=====================================
+
+2025-05-02 11:04:07,138 - DEBUG - Matched orders: [Order(25:: sell @ 276 for 24 by User_7)]
+2025-05-02 11:04:07,138 - INFO - Active order after matching: Order(26:: buy @ 349 for 28 by User_2)
+2025-05-02 11:04:07,240 - INFO - 
+=== Transaction 27/50 ===
+2025-05-02 11:04:07,240 - DEBUG - The user can commit 79568.0 balance
+2025-05-02 11:04:07,240 - DEBUG - The user can commit 47024.0 balance after the order id 27 for 144 shares @ 226
+2025-05-02 11:04:07,240 - INFO - User User_7 generated order: Order(27:: buy @ 226 for 144 by User_7)
+2025-05-02 11:04:07,240 - INFO - User_7 generated: Order(27:: buy @ 226 for 144 by User_7)
+2025-05-02 11:04:07,240 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+17 | User_7 | 272 | 267
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+25 | User_7 | 276 | 24
+=====================
+=====================================
+Last Trade Price: 276.0
+=====================================
+
+2025-05-02 11:04:07,240 - DEBUG - Active order: Order(27:: buy @ 226 for 144 by User_7)
+2025-05-02 11:04:07,240 - DEBUG - Matching order now... Order(27:: buy @ 226 for 144 by User_7)
+2025-05-02 11:04:07,240 - DEBUG - No more matches possible for active order: Order(27:: buy @ 226 for 144 by User_7).
+2025-05-02 11:04:07,240 - DEBUG - Processing matched orders: [] with active order: Order(27:: buy @ 226 for 144 by User_7)
+2025-05-02 11:04:07,240 - DEBUG - No matched orders found.
+2025-05-02 11:04:07,240 - DEBUG - Active order added to buy orders: Order(27:: buy @ 226 for 144 by User_7)
+2025-05-02 11:04:07,240 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+17 | User_7 | 272 | 267
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+25 | User_7 | 276 | 24
+=====================
+=====================================
+Last Trade Price: 276.0
+=====================================
+
+2025-05-02 11:04:07,240 - DEBUG - Matched orders: []
+2025-05-02 11:04:07,240 - INFO - Active order after matching: Order(27:: buy @ 226 for 144 by User_7)
+2025-05-02 11:04:07,341 - INFO - 
+=== Transaction 28/50 ===
+2025-05-02 11:04:07,341 - DEBUG - The user can commit 37571.0 balance
+2025-05-02 11:04:07,341 - DEBUG - The user can commit 26221.0 balance after the order id 28 for 50 shares @ 227
+2025-05-02 11:04:07,341 - INFO - User User_2 generated order: Order(28:: buy @ 227 for 50 by User_2)
+2025-05-02 11:04:07,341 - INFO - User_2 generated: Order(28:: buy @ 227 for 50 by User_2)
+2025-05-02 11:04:07,341 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+17 | User_7 | 272 | 267
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+25 | User_7 | 276 | 24
+=====================
+=====================================
+Last Trade Price: 276.0
+=====================================
+
+2025-05-02 11:04:07,341 - DEBUG - Active order: Order(28:: buy @ 227 for 50 by User_2)
+2025-05-02 11:04:07,341 - DEBUG - Matching order now... Order(28:: buy @ 227 for 50 by User_2)
+2025-05-02 11:04:07,341 - DEBUG - No more matches possible for active order: Order(28:: buy @ 227 for 50 by User_2).
+2025-05-02 11:04:07,341 - DEBUG - Processing matched orders: [] with active order: Order(28:: buy @ 227 for 50 by User_2)
+2025-05-02 11:04:07,341 - DEBUG - No matched orders found.
+2025-05-02 11:04:07,341 - DEBUG - Active order added to buy orders: Order(28:: buy @ 227 for 50 by User_2)
+2025-05-02 11:04:07,341 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+17 | User_7 | 272 | 267
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+25 | User_7 | 276 | 24
+=====================
+=====================================
+Last Trade Price: 276.0
+=====================================
+
+2025-05-02 11:04:07,341 - DEBUG - Matched orders: []
+2025-05-02 11:04:07,341 - INFO - Active order after matching: Order(28:: buy @ 227 for 50 by User_2)
+2025-05-02 11:04:07,442 - INFO - 
+=== Transaction 29/50 ===
+2025-05-02 11:04:07,442 - DEBUG - The user can commit 74 shares
+2025-05-02 11:04:07,442 - DEBUG - The user can commit 51 shares after the order id 29 for 23 shares @ 246
+2025-05-02 11:04:07,442 - INFO - User User_3 generated order: Order(29:: sell @ 246 for 23 by User_3)
+2025-05-02 11:04:07,442 - INFO - User_3 generated: Order(29:: sell @ 246 for 23 by User_3)
+2025-05-02 11:04:07,442 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+17 | User_7 | 272 | 267
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+25 | User_7 | 276 | 24
+=====================
+=====================================
+Last Trade Price: 276.0
+=====================================
+
+2025-05-02 11:04:07,442 - DEBUG - Active order: Order(29:: sell @ 246 for 23 by User_3)
+2025-05-02 11:04:07,442 - DEBUG - Matching order now... Order(29:: sell @ 246 for 23 by User_3)
+2025-05-02 11:04:07,442 - DEBUG - Matched order: Order(17:: buy @ 272 for 244 by User_7) with active order: Order(29:: sell @ 246 for 23 by User_3), qty_to_match: 0
+2025-05-02 11:04:07,442 - INFO - Active order was fully matched: Order(29:: sell @ 246 for 23 by User_3) with orders, proceeding to process matched orders.
+2025-05-02 11:04:07,442 - DEBUG - Processing matched orders: [Order(17:: buy @ 272 for 244 by User_7)] with active order: Order(29:: sell @ 246 for 23 by User_3)
+2025-05-02 11:04:07,442 - DEBUG - Last trade price set to: 272.0
+2025-05-02 11:04:07,442 - DEBUG - Matched orders: [Order(17:: buy @ 272 for 244 by User_7)]
+2025-05-02 11:04:07,442 - DEBUG - Partial match, remaining order: Order(17:: buy @ 272 for 244 by User_7), adding to buy orders.
+2025-05-02 11:04:07,442 - INFO - User User_7 bought 23 shares @ 272.00. New balance: 154925.00, shares: 133
+2025-05-02 11:04:07,442 - INFO - ROUTE C !!! User User_7: Order 17 partially/fully executed for 23 shares at 272[0m
+2025-05-02 11:04:07,442 - INFO - User User_3 sold 23 shares @ 272.00. New balance: 117261.00, shares: 51
+2025-05-02 11:04:07,442 - INFO - ROUTE D !!! User User_3: Order 29 partially/fully executed for 23 shares at 272.0[0m
+2025-05-02 11:04:07,442 - INFO - Global net balance check: Initial: 789764, Final: 789764.0, Change: 0.0
+2025-05-02 11:04:07,442 - INFO - Global net shares check: Initial: 834, Final: 834, Change: 0
+2025-05-02 11:04:07,442 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+17 | User_7 | 272 | 244
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+25 | User_7 | 276 | 24
+=====================
+=====================================
+Last Trade Price: 272.0
+=====================================
+
+2025-05-02 11:04:07,442 - DEBUG - Matched orders: [Order(17:: buy @ 272 for 244 by User_7)]
+2025-05-02 11:04:07,442 - INFO - Active order after matching: Order(29:: sell @ 246 for 23 by User_3)
+2025-05-02 11:04:07,544 - INFO - 
+=== Transaction 30/50 ===
+2025-05-02 11:04:07,544 - DEBUG - The user can commit 47024.0 balance
+2025-05-02 11:04:07,544 - DEBUG - The user can commit 41686.0 balance after the order id 30 for 17 shares @ 314
+2025-05-02 11:04:07,544 - INFO - User User_7 generated order: Order(30:: buy @ 314 for 17 by User_7)
+2025-05-02 11:04:07,544 - INFO - User_7 generated: Order(30:: buy @ 314 for 17 by User_7)
+2025-05-02 11:04:07,544 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+17 | User_7 | 272 | 244
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+25 | User_7 | 276 | 24
+=====================
+=====================================
+Last Trade Price: 272.0
+=====================================
+
+2025-05-02 11:04:07,544 - DEBUG - Active order: Order(30:: buy @ 314 for 17 by User_7)
+2025-05-02 11:04:07,544 - DEBUG - Matching order now... Order(30:: buy @ 314 for 17 by User_7)
+2025-05-02 11:04:07,544 - DEBUG - Matched order: Order(25:: sell @ 276 for 7 by User_7) with active order: Order(30:: buy @ 314 for 17 by User_7), qty_to_match: 0
+2025-05-02 11:04:07,544 - INFO - Active order was fully matched: Order(30:: buy @ 314 for 17 by User_7) with orders, proceeding to process matched orders.
+2025-05-02 11:04:07,544 - DEBUG - Processing matched orders: [Order(25:: sell @ 276 for 7 by User_7)] with active order: Order(30:: buy @ 314 for 17 by User_7)
+2025-05-02 11:04:07,544 - DEBUG - Last trade price set to: 276.0
+2025-05-02 11:04:07,544 - DEBUG - Matched orders: [Order(25:: sell @ 276 for 7 by User_7)]
+2025-05-02 11:04:07,544 - DEBUG - Partial match, remaining order: Order(25:: sell @ 276 for 7 by User_7), adding to sell orders.
+2025-05-02 11:04:07,544 - INFO - User User_7 sold 17 shares @ 276.00. New balance: 159617.00, shares: 116
+2025-05-02 11:04:07,544 - INFO - ROUTE A !!! User User_7: Order 25 partially/fully executed for 17 shares at 276[0m
+2025-05-02 11:04:07,544 - INFO - User User_7 bought 17 shares @ 276.00. New balance: 154925.00, shares: 133
+2025-05-02 11:04:07,544 - INFO - ROUTE D !!! User User_7: Order 30 partially/fully executed for 17 shares at 276.0[0m
+2025-05-02 11:04:07,544 - INFO - Global net balance check: Initial: 789764, Final: 789764.0, Change: 0.0
+2025-05-02 11:04:07,544 - INFO - Global net shares check: Initial: 834, Final: 834, Change: 0
+2025-05-02 11:04:07,544 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+17 | User_7 | 272 | 244
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+25 | User_7 | 276 | 7
+=====================
+=====================================
+Last Trade Price: 276.0
+=====================================
+
+2025-05-02 11:04:07,544 - DEBUG - Matched orders: [Order(25:: sell @ 276 for 7 by User_7)]
+2025-05-02 11:04:07,544 - INFO - Active order after matching: Order(30:: buy @ 314 for 17 by User_7)
+2025-05-02 11:04:07,544 - INFO - 
+Order Book State after 30 transactions:
+2025-05-02 11:04:07,544 - INFO -  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+17 | User_7 | 272 | 244
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+25 | User_7 | 276 | 7
+=====================
+=====================================
+Last Trade Price: 276.0
+=====================================
+
+2025-05-02 11:04:07,646 - INFO - 
+=== Transaction 31/50 ===
+2025-05-02 11:04:07,646 - DEBUG - The user can commit 89 shares
+2025-05-02 11:04:07,646 - DEBUG - The user can commit 58 shares after the order id 31 for 31 shares @ 243
+2025-05-02 11:04:07,646 - INFO - User User_6 generated order: Order(31:: sell @ 243 for 31 by User_6)
+2025-05-02 11:04:07,646 - INFO - User_6 generated: Order(31:: sell @ 243 for 31 by User_6)
+2025-05-02 11:04:07,646 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+17 | User_7 | 272 | 244
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+25 | User_7 | 276 | 7
+=====================
+=====================================
+Last Trade Price: 276.0
+=====================================
+
+2025-05-02 11:04:07,646 - DEBUG - Active order: Order(31:: sell @ 243 for 31 by User_6)
+2025-05-02 11:04:07,646 - DEBUG - Matching order now... Order(31:: sell @ 243 for 31 by User_6)
+2025-05-02 11:04:07,646 - DEBUG - Matched order: Order(17:: buy @ 272 for 213 by User_7) with active order: Order(31:: sell @ 243 for 31 by User_6), qty_to_match: 0
+2025-05-02 11:04:07,646 - INFO - Active order was fully matched: Order(31:: sell @ 243 for 31 by User_6) with orders, proceeding to process matched orders.
+2025-05-02 11:04:07,646 - DEBUG - Processing matched orders: [Order(17:: buy @ 272 for 213 by User_7)] with active order: Order(31:: sell @ 243 for 31 by User_6)
+2025-05-02 11:04:07,646 - DEBUG - Last trade price set to: 272.0
+2025-05-02 11:04:07,646 - DEBUG - Matched orders: [Order(17:: buy @ 272 for 213 by User_7)]
+2025-05-02 11:04:07,646 - DEBUG - Partial match, remaining order: Order(17:: buy @ 272 for 213 by User_7), adding to buy orders.
+2025-05-02 11:04:07,646 - INFO - User User_7 bought 31 shares @ 272.00. New balance: 146493.00, shares: 164
+2025-05-02 11:04:07,646 - INFO - ROUTE C !!! User User_7: Order 17 partially/fully executed for 31 shares at 272[0m
+2025-05-02 11:04:07,646 - INFO - User User_6 sold 31 shares @ 272.00. New balance: 99961.00, shares: 58
+2025-05-02 11:04:07,646 - INFO - ROUTE D !!! User User_6: Order 31 partially/fully executed for 31 shares at 272.0[0m
+2025-05-02 11:04:07,646 - INFO - Global net balance check: Initial: 789764, Final: 789764.0, Change: 0.0
+2025-05-02 11:04:07,646 - INFO - Global net shares check: Initial: 834, Final: 834, Change: 0
+2025-05-02 11:04:07,646 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+25 | User_7 | 276 | 7
+=====================
+=====================================
+Last Trade Price: 272.0
+=====================================
+
+2025-05-02 11:04:07,646 - DEBUG - Matched orders: [Order(17:: buy @ 272 for 213 by User_7)]
+2025-05-02 11:04:07,646 - INFO - Active order after matching: Order(31:: sell @ 243 for 31 by User_6)
+2025-05-02 11:04:07,748 - INFO - 
+=== Transaction 32/50 ===
+2025-05-02 11:04:07,748 - DEBUG - The user can commit 26221.0 balance
+2025-05-02 11:04:07,748 - DEBUG - The user can commit 19291.0 balance after the order id 32 for 22 shares @ 315
+2025-05-02 11:04:07,748 - INFO - User User_2 generated order: Order(32:: buy @ 315 for 22 by User_2)
+2025-05-02 11:04:07,748 - INFO - User_2 generated: Order(32:: buy @ 315 for 22 by User_2)
+2025-05-02 11:04:07,748 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+25 | User_7 | 276 | 7
+=====================
+=====================================
+Last Trade Price: 272.0
+=====================================
+
+2025-05-02 11:04:07,748 - DEBUG - Active order: Order(32:: buy @ 315 for 22 by User_2)
+2025-05-02 11:04:07,748 - DEBUG - Matching order now... Order(32:: buy @ 315 for 22 by User_2)
+2025-05-02 11:04:07,748 - DEBUG - Matched order: Order(25:: sell @ 276 for 0 by User_7) with active order: Order(32:: buy @ 315 for 22 by User_2), qty_to_match: 15
+2025-05-02 11:04:07,748 - DEBUG - Processing matched orders: [Order(25:: sell @ 276 for 0 by User_7)] with active order: Order(32:: buy @ 315 for 22 by User_2)
+2025-05-02 11:04:07,748 - DEBUG - Last trade price set to: 276.0
+2025-05-02 11:04:07,748 - DEBUG - Matched orders: [Order(25:: sell @ 276 for 0 by User_7)]
+2025-05-02 11:04:07,748 - INFO - User User_7 sold 7 shares @ 276.00. New balance: 148425.00, shares: 157
+2025-05-02 11:04:07,748 - INFO - ROUTE A !!! User User_7: Order 25 partially/fully executed for 7 shares at 276[0m
+2025-05-02 11:04:07,748 - INFO - User User_2 bought 7 shares @ 276.00. New balance: 54037.00, shares: 186
+2025-05-02 11:04:07,748 - INFO - ROUTE D !!! User User_2: Order 32 partially/fully executed for 7 shares at 276.0[0m
+2025-05-02 11:04:07,748 - DEBUG - Partial match, remaining order: Order(32:: buy @ 315 for 15 by User_2), adding to buy orders.
+2025-05-02 11:04:07,748 - INFO - Global net balance check: Initial: 789764, Final: 789764.0, Change: 0.0
+2025-05-02 11:04:07,748 - INFO - Global net shares check: Initial: 834, Final: 834, Change: 0
+2025-05-02 11:04:07,748 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+32 | User_2 | 315 | 15
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 276.0
+=====================================
+
+2025-05-02 11:04:07,748 - DEBUG - Matched orders: [Order(25:: sell @ 276 for 0 by User_7)]
+2025-05-02 11:04:07,748 - INFO - Active order after matching: Order(32:: buy @ 315 for 15 by User_2)
+2025-05-02 11:04:07,850 - INFO - 
+=== Transaction 33/50 ===
+2025-05-02 11:04:07,850 - DEBUG - The user can commit 54028.0 balance
+2025-05-02 11:04:07,850 - DEBUG - The user can commit 39538.0 balance after the order id 33 for 46 shares @ 315
+2025-05-02 11:04:07,850 - INFO - User User_3 generated order: Order(33:: buy @ 315 for 46 by User_3)
+2025-05-02 11:04:07,850 - INFO - User_3 generated: Order(33:: buy @ 315 for 46 by User_3)
+2025-05-02 11:04:07,850 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+32 | User_2 | 315 | 15
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 276.0
+=====================================
+
+2025-05-02 11:04:07,850 - DEBUG - Active order: Order(33:: buy @ 315 for 46 by User_3)
+2025-05-02 11:04:07,850 - DEBUG - Matching order now... Order(33:: buy @ 315 for 46 by User_3)
+2025-05-02 11:04:07,850 - DEBUG - Processing matched orders: [] with active order: Order(33:: buy @ 315 for 46 by User_3)
+2025-05-02 11:04:07,850 - DEBUG - No matched orders found.
+2025-05-02 11:04:07,850 - DEBUG - Active order added to buy orders: Order(33:: buy @ 315 for 46 by User_3)
+2025-05-02 11:04:07,850 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+32 | User_2 | 315 | 15
+33 | User_3 | 315 | 46
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 276.0
+=====================================
+
+2025-05-02 11:04:07,850 - DEBUG - Matched orders: []
+2025-05-02 11:04:07,850 - INFO - Active order after matching: Order(33:: buy @ 315 for 46 by User_3)
+2025-05-02 11:04:07,951 - INFO - 
+=== Transaction 34/50 ===
+2025-05-02 11:04:07,951 - DEBUG - The user can commit 83471.0 balance
+2025-05-02 11:04:07,951 - DEBUG - The user can commit 38822.0 balance after the order id 34 for 123 shares @ 363
+2025-05-02 11:04:07,951 - INFO - User User_6 generated order: Order(34:: buy @ 363 for 123 by User_6)
+2025-05-02 11:04:07,951 - INFO - User_6 generated: Order(34:: buy @ 363 for 123 by User_6)
+2025-05-02 11:04:07,951 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+32 | User_2 | 315 | 15
+33 | User_3 | 315 | 46
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 276.0
+=====================================
+
+2025-05-02 11:04:07,951 - DEBUG - Active order: Order(34:: buy @ 363 for 123 by User_6)
+2025-05-02 11:04:07,951 - DEBUG - Matching order now... Order(34:: buy @ 363 for 123 by User_6)
+2025-05-02 11:04:07,951 - DEBUG - Processing matched orders: [] with active order: Order(34:: buy @ 363 for 123 by User_6)
+2025-05-02 11:04:07,951 - DEBUG - No matched orders found.
+2025-05-02 11:04:07,951 - DEBUG - Active order added to buy orders: Order(34:: buy @ 363 for 123 by User_6)
+2025-05-02 11:04:07,951 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+34 | User_6 | 363 | 123
+32 | User_2 | 315 | 15
+33 | User_3 | 315 | 46
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 276.0
+=====================================
+
+2025-05-02 11:04:07,951 - DEBUG - Matched orders: []
+2025-05-02 11:04:07,951 - INFO - Active order after matching: Order(34:: buy @ 363 for 123 by User_6)
+2025-05-02 11:04:08,053 - INFO - 
+=== Transaction 35/50 ===
+2025-05-02 11:04:08,053 - DEBUG - The user can commit 148 shares
+2025-05-02 11:04:08,053 - DEBUG - The user can commit 77 shares after the order id 35 for 71 shares @ 220
+2025-05-02 11:04:08,053 - INFO - User User_1 generated order: Order(35:: sell @ 220 for 71 by User_1)
+2025-05-02 11:04:08,053 - INFO - User_1 generated: Order(35:: sell @ 220 for 71 by User_1)
+2025-05-02 11:04:08,053 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+34 | User_6 | 363 | 123
+32 | User_2 | 315 | 15
+33 | User_3 | 315 | 46
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 276.0
+=====================================
+
+2025-05-02 11:04:08,053 - DEBUG - Active order: Order(35:: sell @ 220 for 71 by User_1)
+2025-05-02 11:04:08,053 - DEBUG - Matching order now... Order(35:: sell @ 220 for 71 by User_1)
+2025-05-02 11:04:08,053 - DEBUG - Matched order: Order(34:: buy @ 363 for 52 by User_6) with active order: Order(35:: sell @ 220 for 71 by User_1), qty_to_match: 0
+2025-05-02 11:04:08,053 - INFO - Active order was fully matched: Order(35:: sell @ 220 for 71 by User_1) with orders, proceeding to process matched orders.
+2025-05-02 11:04:08,053 - DEBUG - Processing matched orders: [Order(34:: buy @ 363 for 52 by User_6)] with active order: Order(35:: sell @ 220 for 71 by User_1)
+2025-05-02 11:04:08,053 - DEBUG - Last trade price set to: 363.0
+2025-05-02 11:04:08,053 - DEBUG - Matched orders: [Order(34:: buy @ 363 for 52 by User_6)]
+2025-05-02 11:04:08,054 - DEBUG - Partial match, remaining order: Order(34:: buy @ 363 for 52 by User_6), adding to buy orders.
+2025-05-02 11:04:08,054 - INFO - User User_6 bought 71 shares @ 363.00. New balance: 74188.00, shares: 129
+2025-05-02 11:04:08,054 - INFO - ROUTE C !!! User User_6: Order 34 partially/fully executed for 71 shares at 363[0m
+2025-05-02 11:04:08,054 - INFO - User User_1 sold 71 shares @ 363.00. New balance: 128868.00, shares: 77
+2025-05-02 11:04:08,054 - INFO - ROUTE D !!! User User_1: Order 35 partially/fully executed for 71 shares at 363.0[0m
+2025-05-02 11:04:08,054 - INFO - Global net balance check: Initial: 789764, Final: 789764.0, Change: 0.0
+2025-05-02 11:04:08,054 - INFO - Global net shares check: Initial: 834, Final: 834, Change: 0
+2025-05-02 11:04:08,054 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+34 | User_6 | 363 | 52
+32 | User_2 | 315 | 15
+33 | User_3 | 315 | 46
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 363.0
+=====================================
+
+2025-05-02 11:04:08,054 - DEBUG - Matched orders: [Order(34:: buy @ 363 for 52 by User_6)]
+2025-05-02 11:04:08,054 - INFO - Active order after matching: Order(35:: sell @ 220 for 71 by User_1)
+2025-05-02 11:04:08,154 - INFO - 
+=== Transaction 36/50 ===
+2025-05-02 11:04:08,154 - DEBUG - The user can commit 38822.0 balance
+2025-05-02 11:04:08,154 - DEBUG - The user can commit 33497.0 balance after the order id 36 for 15 shares @ 355
+2025-05-02 11:04:08,154 - INFO - User User_6 generated order: Order(36:: buy @ 355 for 15 by User_6)
+2025-05-02 11:04:08,154 - INFO - User_6 generated: Order(36:: buy @ 355 for 15 by User_6)
+2025-05-02 11:04:08,154 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+34 | User_6 | 363 | 52
+32 | User_2 | 315 | 15
+33 | User_3 | 315 | 46
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 363.0
+=====================================
+
+2025-05-02 11:04:08,154 - DEBUG - Active order: Order(36:: buy @ 355 for 15 by User_6)
+2025-05-02 11:04:08,154 - DEBUG - Matching order now... Order(36:: buy @ 355 for 15 by User_6)
+2025-05-02 11:04:08,154 - DEBUG - Processing matched orders: [] with active order: Order(36:: buy @ 355 for 15 by User_6)
+2025-05-02 11:04:08,154 - DEBUG - No matched orders found.
+2025-05-02 11:04:08,154 - DEBUG - Active order added to buy orders: Order(36:: buy @ 355 for 15 by User_6)
+2025-05-02 11:04:08,154 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+34 | User_6 | 363 | 52
+36 | User_6 | 355 | 15
+32 | User_2 | 315 | 15
+33 | User_3 | 315 | 46
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 363.0
+=====================================
+
+2025-05-02 11:04:08,154 - DEBUG - Matched orders: []
+2025-05-02 11:04:08,154 - INFO - Active order after matching: Order(36:: buy @ 355 for 15 by User_6)
+2025-05-02 11:04:08,256 - INFO - 
+=== Transaction 37/50 ===
+2025-05-02 11:04:08,256 - DEBUG - The user can commit 154 shares
+2025-05-02 11:04:08,256 - DEBUG - The user can commit 125 shares after the order id 37 for 29 shares @ 229
+2025-05-02 11:04:08,256 - INFO - User User_5 generated order: Order(37:: sell @ 229 for 29 by User_5)
+2025-05-02 11:04:08,256 - INFO - User_5 generated: Order(37:: sell @ 229 for 29 by User_5)
+2025-05-02 11:04:08,256 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+34 | User_6 | 363 | 52
+36 | User_6 | 355 | 15
+32 | User_2 | 315 | 15
+33 | User_3 | 315 | 46
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 363.0
+=====================================
+
+2025-05-02 11:04:08,256 - DEBUG - Active order: Order(37:: sell @ 229 for 29 by User_5)
+2025-05-02 11:04:08,256 - DEBUG - Matching order now... Order(37:: sell @ 229 for 29 by User_5)
+2025-05-02 11:04:08,256 - DEBUG - Matched order: Order(34:: buy @ 363 for 23 by User_6) with active order: Order(37:: sell @ 229 for 29 by User_5), qty_to_match: 0
+2025-05-02 11:04:08,256 - INFO - Active order was fully matched: Order(37:: sell @ 229 for 29 by User_5) with orders, proceeding to process matched orders.
+2025-05-02 11:04:08,256 - DEBUG - Processing matched orders: [Order(34:: buy @ 363 for 23 by User_6)] with active order: Order(37:: sell @ 229 for 29 by User_5)
+2025-05-02 11:04:08,256 - DEBUG - Last trade price set to: 363.0
+2025-05-02 11:04:08,256 - DEBUG - Matched orders: [Order(34:: buy @ 363 for 23 by User_6)]
+2025-05-02 11:04:08,256 - DEBUG - Partial match, remaining order: Order(34:: buy @ 363 for 23 by User_6), adding to buy orders.
+2025-05-02 11:04:08,256 - INFO - User User_6 bought 29 shares @ 363.00. New balance: 63661.00, shares: 158
+2025-05-02 11:04:08,256 - INFO - ROUTE C !!! User User_6: Order 34 partially/fully executed for 29 shares at 363[0m
+2025-05-02 11:04:08,256 - INFO - User User_5 sold 29 shares @ 363.00. New balance: 157371.00, shares: 125
+2025-05-02 11:04:08,256 - INFO - ROUTE D !!! User User_5: Order 37 partially/fully executed for 29 shares at 363.0[0m
+2025-05-02 11:04:08,256 - INFO - Global net balance check: Initial: 789764, Final: 789764.0, Change: 0.0
+2025-05-02 11:04:08,256 - INFO - Global net shares check: Initial: 834, Final: 834, Change: 0
+2025-05-02 11:04:08,256 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+34 | User_6 | 363 | 23
+36 | User_6 | 355 | 15
+32 | User_2 | 315 | 15
+33 | User_3 | 315 | 46
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 363.0
+=====================================
+
+2025-05-02 11:04:08,256 - DEBUG - Matched orders: [Order(34:: buy @ 363 for 23 by User_6)]
+2025-05-02 11:04:08,256 - INFO - Active order after matching: Order(37:: sell @ 229 for 29 by User_5)
+2025-05-02 11:04:08,357 - INFO - 
+=== Transaction 38/50 ===
+2025-05-02 11:04:08,357 - DEBUG - The user can commit 33497.0 balance
+2025-05-02 11:04:08,357 - DEBUG - The user can commit 31026.0 balance after the order id 38 for 7 shares @ 353
+2025-05-02 11:04:08,357 - INFO - User User_6 generated order: Order(38:: buy @ 353 for 7 by User_6)
+2025-05-02 11:04:08,357 - INFO - User_6 generated: Order(38:: buy @ 353 for 7 by User_6)
+2025-05-02 11:04:08,357 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+34 | User_6 | 363 | 23
+36 | User_6 | 355 | 15
+32 | User_2 | 315 | 15
+33 | User_3 | 315 | 46
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 363.0
+=====================================
+
+2025-05-02 11:04:08,357 - DEBUG - Active order: Order(38:: buy @ 353 for 7 by User_6)
+2025-05-02 11:04:08,357 - DEBUG - Matching order now... Order(38:: buy @ 353 for 7 by User_6)
+2025-05-02 11:04:08,357 - DEBUG - Processing matched orders: [] with active order: Order(38:: buy @ 353 for 7 by User_6)
+2025-05-02 11:04:08,357 - DEBUG - No matched orders found.
+2025-05-02 11:04:08,357 - DEBUG - Active order added to buy orders: Order(38:: buy @ 353 for 7 by User_6)
+2025-05-02 11:04:08,357 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+34 | User_6 | 363 | 23
+36 | User_6 | 355 | 15
+38 | User_6 | 353 | 7
+32 | User_2 | 315 | 15
+33 | User_3 | 315 | 46
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 363.0
+=====================================
+
+2025-05-02 11:04:08,357 - DEBUG - Matched orders: []
+2025-05-02 11:04:08,357 - INFO - Active order after matching: Order(38:: buy @ 353 for 7 by User_6)
+2025-05-02 11:04:08,459 - INFO - 
+=== Transaction 39/50 ===
+2025-05-02 11:04:08,459 - DEBUG - The user can commit 186 shares
+2025-05-02 11:04:08,459 - DEBUG - The user can commit 131 shares after the order id 39 for 55 shares @ 333
+2025-05-02 11:04:08,459 - INFO - User User_2 generated order: Order(39:: sell @ 333 for 55 by User_2)
+2025-05-02 11:04:08,459 - INFO - User_2 generated: Order(39:: sell @ 333 for 55 by User_2)
+2025-05-02 11:04:08,459 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+34 | User_6 | 363 | 23
+36 | User_6 | 355 | 15
+38 | User_6 | 353 | 7
+32 | User_2 | 315 | 15
+33 | User_3 | 315 | 46
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 363.0
+=====================================
+
+2025-05-02 11:04:08,459 - DEBUG - Active order: Order(39:: sell @ 333 for 55 by User_2)
+2025-05-02 11:04:08,459 - DEBUG - Matching order now... Order(39:: sell @ 333 for 55 by User_2)
+2025-05-02 11:04:08,459 - DEBUG - Matched order: Order(34:: buy @ 363 for 0 by User_6) with active order: Order(39:: sell @ 333 for 55 by User_2), qty_to_match: 32
+2025-05-02 11:04:08,459 - DEBUG - Matched order: Order(36:: buy @ 355 for 0 by User_6) with active order: Order(39:: sell @ 333 for 55 by User_2), qty_to_match: 17
+2025-05-02 11:04:08,459 - DEBUG - Matched order: Order(38:: buy @ 353 for 0 by User_6) with active order: Order(39:: sell @ 333 for 55 by User_2), qty_to_match: 10
+2025-05-02 11:04:08,459 - DEBUG - No more matches possible for active order: Order(39:: sell @ 333 for 55 by User_2).
+2025-05-02 11:04:08,459 - DEBUG - Processing matched orders: [Order(34:: buy @ 363 for 0 by User_6), Order(36:: buy @ 355 for 0 by User_6), Order(38:: buy @ 353 for 0 by User_6)] with active order: Order(39:: sell @ 333 for 55 by User_2)
+2025-05-02 11:04:08,459 - DEBUG - Last trade price set to: 358.77777777777777
+2025-05-02 11:04:08,459 - DEBUG - Matched orders: [Order(34:: buy @ 363 for 0 by User_6), Order(36:: buy @ 355 for 0 by User_6), Order(38:: buy @ 353 for 0 by User_6)]
+2025-05-02 11:04:08,459 - INFO - User User_6 bought 23 shares @ 363.00. New balance: 55312.00, shares: 181
+2025-05-02 11:04:08,459 - INFO - ROUTE B !!! User User_6: Order 34 executed for 23 shares at 363[0m
+2025-05-02 11:04:08,459 - INFO - User User_6 bought 15 shares @ 355.00. New balance: 49987.00, shares: 196
+2025-05-02 11:04:08,459 - INFO - ROUTE B !!! User User_6: Order 36 executed for 15 shares at 355[0m
+2025-05-02 11:04:08,459 - INFO - User User_6 bought 7 shares @ 353.00. New balance: 47516.00, shares: 203
+2025-05-02 11:04:08,459 - INFO - ROUTE C !!! User User_6: Order 38 partially/fully executed for 7 shares at 353[0m
+2025-05-02 11:04:08,459 - INFO - User User_2 sold 45 shares @ 358.78. New balance: 70182.00, shares: 141
+2025-05-02 11:04:08,459 - INFO - ROUTE D !!! User User_2: Order 39 partially/fully executed for 45 shares at 358.77777777777777[0m
+2025-05-02 11:04:08,459 - DEBUG - Partial match, remaining order: Order(39:: sell @ 333 for 10 by User_2), adding to sell orders.
+2025-05-02 11:04:08,459 - INFO - Global net balance check: Initial: 789764, Final: 789764.0, Change: 0.0
+2025-05-02 11:04:08,459 - INFO - Global net shares check: Initial: 834, Final: 834, Change: 0
+2025-05-02 11:04:08,459 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+32 | User_2 | 315 | 15
+33 | User_3 | 315 | 46
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+39 | User_2 | 333 | 10
+=====================
+=====================================
+Last Trade Price: 358.77777777777777
+=====================================
+
+2025-05-02 11:04:08,459 - DEBUG - Matched orders: [Order(34:: buy @ 363 for 0 by User_6), Order(36:: buy @ 355 for 0 by User_6), Order(38:: buy @ 353 for 0 by User_6)]
+2025-05-02 11:04:08,459 - INFO - Active order after matching: Order(39:: sell @ 333 for 10 by User_2)
+2025-05-02 11:04:08,561 - INFO - 
+=== Transaction 40/50 ===
+2025-05-02 11:04:08,561 - DEBUG - The user can commit 39538.0 balance
+2025-05-02 11:04:08,561 - DEBUG - The user can commit 27030.0 balance after the order id 40 for 53 shares @ 236
+2025-05-02 11:04:08,561 - INFO - User User_3 generated order: Order(40:: buy @ 236 for 53 by User_3)
+2025-05-02 11:04:08,561 - INFO - User_3 generated: Order(40:: buy @ 236 for 53 by User_3)
+2025-05-02 11:04:08,561 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+32 | User_2 | 315 | 15
+33 | User_3 | 315 | 46
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+39 | User_2 | 333 | 10
+=====================
+=====================================
+Last Trade Price: 358.77777777777777
+=====================================
+
+2025-05-02 11:04:08,561 - DEBUG - Active order: Order(40:: buy @ 236 for 53 by User_3)
+2025-05-02 11:04:08,561 - DEBUG - Matching order now... Order(40:: buy @ 236 for 53 by User_3)
+2025-05-02 11:04:08,561 - DEBUG - No more matches possible for active order: Order(40:: buy @ 236 for 53 by User_3).
+2025-05-02 11:04:08,561 - DEBUG - Processing matched orders: [] with active order: Order(40:: buy @ 236 for 53 by User_3)
+2025-05-02 11:04:08,561 - DEBUG - No matched orders found.
+2025-05-02 11:04:08,561 - DEBUG - Active order added to buy orders: Order(40:: buy @ 236 for 53 by User_3)
+2025-05-02 11:04:08,561 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+32 | User_2 | 315 | 15
+33 | User_3 | 315 | 46
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+40 | User_3 | 236 | 53
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+39 | User_2 | 333 | 10
+=====================
+=====================================
+Last Trade Price: 358.77777777777777
+=====================================
+
+2025-05-02 11:04:08,561 - DEBUG - Matched orders: []
+2025-05-02 11:04:08,561 - INFO - Active order after matching: Order(40:: buy @ 236 for 53 by User_3)
+2025-05-02 11:04:08,561 - INFO - 
+Order Book State after 40 transactions:
+2025-05-02 11:04:08,561 - INFO -  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+32 | User_2 | 315 | 15
+33 | User_3 | 315 | 46
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+40 | User_3 | 236 | 53
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+39 | User_2 | 333 | 10
+=====================
+=====================================
+Last Trade Price: 358.77777777777777
+=====================================
+
+2025-05-02 11:04:08,662 - INFO - 
+=== Transaction 41/50 ===
+2025-05-02 11:04:08,662 - DEBUG - The user can commit 203 shares
+2025-05-02 11:04:08,662 - DEBUG - The user can commit 174 shares after the order id 41 for 29 shares @ 255
+2025-05-02 11:04:08,662 - INFO - User User_6 generated order: Order(41:: sell @ 255 for 29 by User_6)
+2025-05-02 11:04:08,662 - INFO - User_6 generated: Order(41:: sell @ 255 for 29 by User_6)
+2025-05-02 11:04:08,662 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+32 | User_2 | 315 | 15
+33 | User_3 | 315 | 46
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+40 | User_3 | 236 | 53
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+39 | User_2 | 333 | 10
+=====================
+=====================================
+Last Trade Price: 358.77777777777777
+=====================================
+
+2025-05-02 11:04:08,662 - DEBUG - Active order: Order(41:: sell @ 255 for 29 by User_6)
+2025-05-02 11:04:08,662 - DEBUG - Matching order now... Order(41:: sell @ 255 for 29 by User_6)
+2025-05-02 11:04:08,662 - DEBUG - Matched order: Order(32:: buy @ 315 for 0 by User_2) with active order: Order(41:: sell @ 255 for 29 by User_6), qty_to_match: 14
+2025-05-02 11:04:08,662 - DEBUG - Matched order: Order(33:: buy @ 315 for 32 by User_3) with active order: Order(41:: sell @ 255 for 29 by User_6), qty_to_match: 0
+2025-05-02 11:04:08,662 - INFO - Active order was fully matched: Order(41:: sell @ 255 for 29 by User_6) with orders, proceeding to process matched orders.
+2025-05-02 11:04:08,662 - DEBUG - Processing matched orders: [Order(32:: buy @ 315 for 0 by User_2), Order(33:: buy @ 315 for 32 by User_3)] with active order: Order(41:: sell @ 255 for 29 by User_6)
+2025-05-02 11:04:08,662 - DEBUG - Last trade price set to: 315.0
+2025-05-02 11:04:08,662 - DEBUG - Matched orders: [Order(32:: buy @ 315 for 0 by User_2), Order(33:: buy @ 315 for 32 by User_3)]
+2025-05-02 11:04:08,662 - INFO - User User_2 bought 15 shares @ 315.00. New balance: 65457.00, shares: 156
+2025-05-02 11:04:08,662 - INFO - ROUTE B !!! User User_2: Order 32 executed for 15 shares at 315[0m
+2025-05-02 11:04:08,662 - DEBUG - Partial match, remaining order: Order(33:: buy @ 315 for 32 by User_3), adding to buy orders.
+2025-05-02 11:04:08,662 - INFO - User User_3 bought 14 shares @ 315.00. New balance: 112851.00, shares: 65
+2025-05-02 11:04:08,662 - INFO - ROUTE C !!! User User_3: Order 33 partially/fully executed for 14 shares at 315[0m
+2025-05-02 11:04:08,662 - INFO - User User_6 sold 29 shares @ 315.00. New balance: 56651.00, shares: 174
+2025-05-02 11:04:08,662 - INFO - ROUTE D !!! User User_6: Order 41 partially/fully executed for 29 shares at 315.0[0m
+2025-05-02 11:04:08,662 - INFO - Global net balance check: Initial: 789764, Final: 789764.0, Change: 0.0
+2025-05-02 11:04:08,662 - INFO - Global net shares check: Initial: 834, Final: 834, Change: 0
+2025-05-02 11:04:08,664 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+33 | User_3 | 315 | 32
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+40 | User_3 | 236 | 53
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+39 | User_2 | 333 | 10
+=====================
+=====================================
+Last Trade Price: 315.0
+=====================================
+
+2025-05-02 11:04:08,664 - DEBUG - Matched orders: [Order(32:: buy @ 315 for 0 by User_2), Order(33:: buy @ 315 for 32 by User_3)]
+2025-05-02 11:04:08,664 - INFO - Active order after matching: Order(41:: sell @ 255 for 29 by User_6)
+2025-05-02 11:04:08,764 - INFO - 
+=== Transaction 42/50 ===
+2025-05-02 11:04:08,764 - DEBUG - The user can commit 35709.0 balance
+2025-05-02 11:04:08,764 - DEBUG - The user can commit 25875.0 balance after the order id 42 for 33 shares @ 298
+2025-05-02 11:04:08,764 - INFO - User User_2 generated order: Order(42:: buy @ 298 for 33 by User_2)
+2025-05-02 11:04:08,764 - INFO - User_2 generated: Order(42:: buy @ 298 for 33 by User_2)
+2025-05-02 11:04:08,764 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+33 | User_3 | 315 | 32
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+40 | User_3 | 236 | 53
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+39 | User_2 | 333 | 10
+=====================
+=====================================
+Last Trade Price: 315.0
+=====================================
+
+2025-05-02 11:04:08,764 - DEBUG - Active order: Order(42:: buy @ 298 for 33 by User_2)
+2025-05-02 11:04:08,764 - DEBUG - Matching order now... Order(42:: buy @ 298 for 33 by User_2)
+2025-05-02 11:04:08,764 - DEBUG - No more matches possible for active order: Order(42:: buy @ 298 for 33 by User_2).
+2025-05-02 11:04:08,764 - DEBUG - Processing matched orders: [] with active order: Order(42:: buy @ 298 for 33 by User_2)
+2025-05-02 11:04:08,764 - DEBUG - No matched orders found.
+2025-05-02 11:04:08,764 - DEBUG - Active order added to buy orders: Order(42:: buy @ 298 for 33 by User_2)
+2025-05-02 11:04:08,764 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+33 | User_3 | 315 | 32
+42 | User_2 | 298 | 33
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+40 | User_3 | 236 | 53
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+39 | User_2 | 333 | 10
+=====================
+=====================================
+Last Trade Price: 315.0
+=====================================
+
+2025-05-02 11:04:08,764 - DEBUG - Matched orders: []
+2025-05-02 11:04:08,764 - INFO - Active order after matching: Order(42:: buy @ 298 for 33 by User_2)
+2025-05-02 11:04:08,865 - INFO - 
+=== Transaction 43/50 ===
+2025-05-02 11:04:08,865 - DEBUG - The user can commit 80 shares
+2025-05-02 11:04:08,865 - DEBUG - The user can commit 76 shares after the order id 43 for 4 shares @ 208
+2025-05-02 11:04:08,865 - INFO - User User_4 generated order: Order(43:: sell @ 208 for 4 by User_4)
+2025-05-02 11:04:08,865 - INFO - User_4 generated: Order(43:: sell @ 208 for 4 by User_4)
+2025-05-02 11:04:08,865 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+33 | User_3 | 315 | 32
+42 | User_2 | 298 | 33
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+40 | User_3 | 236 | 53
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+39 | User_2 | 333 | 10
+=====================
+=====================================
+Last Trade Price: 315.0
+=====================================
+
+2025-05-02 11:04:08,865 - DEBUG - Active order: Order(43:: sell @ 208 for 4 by User_4)
+2025-05-02 11:04:08,865 - DEBUG - Matching order now... Order(43:: sell @ 208 for 4 by User_4)
+2025-05-02 11:04:08,865 - DEBUG - Matched order: Order(33:: buy @ 315 for 28 by User_3) with active order: Order(43:: sell @ 208 for 4 by User_4), qty_to_match: 0
+2025-05-02 11:04:08,865 - INFO - Active order was fully matched: Order(43:: sell @ 208 for 4 by User_4) with orders, proceeding to process matched orders.
+2025-05-02 11:04:08,865 - DEBUG - Processing matched orders: [Order(33:: buy @ 315 for 28 by User_3)] with active order: Order(43:: sell @ 208 for 4 by User_4)
+2025-05-02 11:04:08,865 - DEBUG - Last trade price set to: 315.0
+2025-05-02 11:04:08,865 - DEBUG - Matched orders: [Order(33:: buy @ 315 for 28 by User_3)]
+2025-05-02 11:04:08,865 - DEBUG - Partial match, remaining order: Order(33:: buy @ 315 for 28 by User_3), adding to buy orders.
+2025-05-02 11:04:08,865 - INFO - User User_3 bought 4 shares @ 315.00. New balance: 111591.00, shares: 69
+2025-05-02 11:04:08,865 - INFO - ROUTE C !!! User User_3: Order 33 partially/fully executed for 4 shares at 315[0m
+2025-05-02 11:04:08,865 - INFO - User User_4 sold 4 shares @ 315.00. New balance: 121401.00, shares: 76
+2025-05-02 11:04:08,865 - INFO - ROUTE D !!! User User_4: Order 43 partially/fully executed for 4 shares at 315.0[0m
+2025-05-02 11:04:08,865 - INFO - Global net balance check: Initial: 789764, Final: 789764.0, Change: 0.0
+2025-05-02 11:04:08,865 - INFO - Global net shares check: Initial: 834, Final: 834, Change: 0
+2025-05-02 11:04:08,865 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+33 | User_3 | 315 | 28
+42 | User_2 | 298 | 33
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+40 | User_3 | 236 | 53
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+39 | User_2 | 333 | 10
+=====================
+=====================================
+Last Trade Price: 315.0
+=====================================
+
+2025-05-02 11:04:08,865 - DEBUG - Matched orders: [Order(33:: buy @ 315 for 28 by User_3)]
+2025-05-02 11:04:08,865 - INFO - Active order after matching: Order(43:: sell @ 208 for 4 by User_4)
+2025-05-02 11:04:08,967 - INFO - 
+=== Transaction 44/50 ===
+2025-05-02 11:04:08,967 - DEBUG - The user can commit 48956.0 balance
+2025-05-02 11:04:08,967 - DEBUG - The user can commit 35180.0 balance after the order id 44 for 48 shares @ 287
+2025-05-02 11:04:08,967 - INFO - User User_7 generated order: Order(44:: buy @ 287 for 48 by User_7)
+2025-05-02 11:04:08,967 - INFO - User_7 generated: Order(44:: buy @ 287 for 48 by User_7)
+2025-05-02 11:04:08,967 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+33 | User_3 | 315 | 28
+42 | User_2 | 298 | 33
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+40 | User_3 | 236 | 53
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+39 | User_2 | 333 | 10
+=====================
+=====================================
+Last Trade Price: 315.0
+=====================================
+
+2025-05-02 11:04:08,967 - DEBUG - Active order: Order(44:: buy @ 287 for 48 by User_7)
+2025-05-02 11:04:08,967 - DEBUG - Matching order now... Order(44:: buy @ 287 for 48 by User_7)
+2025-05-02 11:04:08,967 - DEBUG - No more matches possible for active order: Order(44:: buy @ 287 for 48 by User_7).
+2025-05-02 11:04:08,967 - DEBUG - Processing matched orders: [] with active order: Order(44:: buy @ 287 for 48 by User_7)
+2025-05-02 11:04:08,967 - DEBUG - No matched orders found.
+2025-05-02 11:04:08,967 - DEBUG - Active order added to buy orders: Order(44:: buy @ 287 for 48 by User_7)
+2025-05-02 11:04:08,967 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+33 | User_3 | 315 | 28
+42 | User_2 | 298 | 33
+44 | User_7 | 287 | 48
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+40 | User_3 | 236 | 53
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+39 | User_2 | 333 | 10
+=====================
+=====================================
+Last Trade Price: 315.0
+=====================================
+
+2025-05-02 11:04:08,967 - DEBUG - Matched orders: []
+2025-05-02 11:04:08,967 - INFO - Active order after matching: Order(44:: buy @ 287 for 48 by User_7)
+2025-05-02 11:04:09,068 - INFO - 
+=== Transaction 45/50 ===
+2025-05-02 11:04:09,068 - DEBUG - The user can commit 69400.0 balance
+2025-05-02 11:04:09,068 - DEBUG - The user can commit 33416.0 balance after the order id 45 for 104 shares @ 346
+2025-05-02 11:04:09,068 - INFO - User User_1 generated order: Order(45:: buy @ 346 for 104 by User_1)
+2025-05-02 11:04:09,068 - INFO - User_1 generated: Order(45:: buy @ 346 for 104 by User_1)
+2025-05-02 11:04:09,068 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+33 | User_3 | 315 | 28
+42 | User_2 | 298 | 33
+44 | User_7 | 287 | 48
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+40 | User_3 | 236 | 53
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+39 | User_2 | 333 | 10
+=====================
+=====================================
+Last Trade Price: 315.0
+=====================================
+
+2025-05-02 11:04:09,068 - DEBUG - Active order: Order(45:: buy @ 346 for 104 by User_1)
+2025-05-02 11:04:09,068 - DEBUG - Matching order now... Order(45:: buy @ 346 for 104 by User_1)
+2025-05-02 11:04:09,068 - DEBUG - Matched order: Order(39:: sell @ 333 for 0 by User_2) with active order: Order(45:: buy @ 346 for 104 by User_1), qty_to_match: 94
+2025-05-02 11:04:09,068 - DEBUG - Processing matched orders: [Order(39:: sell @ 333 for 0 by User_2)] with active order: Order(45:: buy @ 346 for 104 by User_1)
+2025-05-02 11:04:09,068 - DEBUG - Last trade price set to: 333.0
+2025-05-02 11:04:09,068 - DEBUG - Matched orders: [Order(39:: sell @ 333 for 0 by User_2)]
+2025-05-02 11:04:09,068 - INFO - User User_2 sold 10 shares @ 333.00. New balance: 68787.00, shares: 146
+2025-05-02 11:04:09,068 - INFO - ROUTE A !!! User User_2: Order 39 partially/fully executed for 10 shares at 333[0m
+2025-05-02 11:04:09,068 - INFO - User User_1 bought 10 shares @ 333.00. New balance: 125538.00, shares: 87
+2025-05-02 11:04:09,068 - INFO - ROUTE D !!! User User_1: Order 45 partially/fully executed for 10 shares at 333.0[0m
+2025-05-02 11:04:09,068 - DEBUG - Partial match, remaining order: Order(45:: buy @ 346 for 94 by User_1), adding to buy orders.
+2025-05-02 11:04:09,068 - INFO - Global net balance check: Initial: 789764, Final: 789764.0, Change: 0.0
+2025-05-02 11:04:09,068 - INFO - Global net shares check: Initial: 834, Final: 834, Change: 0
+2025-05-02 11:04:09,068 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+45 | User_1 | 346 | 94
+33 | User_3 | 315 | 28
+42 | User_2 | 298 | 33
+44 | User_7 | 287 | 48
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+40 | User_3 | 236 | 53
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 333.0
+=====================================
+
+2025-05-02 11:04:09,068 - DEBUG - Matched orders: [Order(39:: sell @ 333 for 0 by User_2)]
+2025-05-02 11:04:09,068 - INFO - Active order after matching: Order(45:: buy @ 346 for 94 by User_1)
+2025-05-02 11:04:09,170 - INFO - 
+=== Transaction 46/50 ===
+2025-05-02 11:04:09,170 - DEBUG - The user can commit 69 shares
+2025-05-02 11:04:09,170 - DEBUG - The user can commit 66 shares after the order id 46 for 3 shares @ 307
+2025-05-02 11:04:09,170 - INFO - User User_3 generated order: Order(46:: sell @ 307 for 3 by User_3)
+2025-05-02 11:04:09,170 - INFO - User_3 generated: Order(46:: sell @ 307 for 3 by User_3)
+2025-05-02 11:04:09,170 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+45 | User_1 | 346 | 94
+33 | User_3 | 315 | 28
+42 | User_2 | 298 | 33
+44 | User_7 | 287 | 48
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+40 | User_3 | 236 | 53
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 333.0
+=====================================
+
+2025-05-02 11:04:09,170 - DEBUG - Active order: Order(46:: sell @ 307 for 3 by User_3)
+2025-05-02 11:04:09,170 - DEBUG - Matching order now... Order(46:: sell @ 307 for 3 by User_3)
+2025-05-02 11:04:09,170 - DEBUG - Matched order: Order(45:: buy @ 346 for 91 by User_1) with active order: Order(46:: sell @ 307 for 3 by User_3), qty_to_match: 0
+2025-05-02 11:04:09,170 - INFO - Active order was fully matched: Order(46:: sell @ 307 for 3 by User_3) with orders, proceeding to process matched orders.
+2025-05-02 11:04:09,170 - DEBUG - Processing matched orders: [Order(45:: buy @ 346 for 91 by User_1)] with active order: Order(46:: sell @ 307 for 3 by User_3)
+2025-05-02 11:04:09,170 - DEBUG - Last trade price set to: 346.0
+2025-05-02 11:04:09,170 - DEBUG - Matched orders: [Order(45:: buy @ 346 for 91 by User_1)]
+2025-05-02 11:04:09,170 - DEBUG - Partial match, remaining order: Order(45:: buy @ 346 for 91 by User_1), adding to buy orders.
+2025-05-02 11:04:09,170 - INFO - User User_1 bought 3 shares @ 346.00. New balance: 124500.00, shares: 90
+2025-05-02 11:04:09,170 - INFO - ROUTE C !!! User User_1: Order 45 partially/fully executed for 3 shares at 346[0m
+2025-05-02 11:04:09,170 - INFO - User User_3 sold 3 shares @ 346.00. New balance: 112629.00, shares: 66
+2025-05-02 11:04:09,170 - INFO - ROUTE D !!! User User_3: Order 46 partially/fully executed for 3 shares at 346.0[0m
+2025-05-02 11:04:09,170 - INFO - Global net balance check: Initial: 789764, Final: 789764.0, Change: 0.0
+2025-05-02 11:04:09,170 - INFO - Global net shares check: Initial: 834, Final: 834, Change: 0
+2025-05-02 11:04:09,170 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+45 | User_1 | 346 | 91
+33 | User_3 | 315 | 28
+42 | User_2 | 298 | 33
+44 | User_7 | 287 | 48
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+40 | User_3 | 236 | 53
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 346.0
+=====================================
+
+2025-05-02 11:04:09,170 - DEBUG - Matched orders: [Order(45:: buy @ 346 for 91 by User_1)]
+2025-05-02 11:04:09,170 - INFO - Active order after matching: Order(46:: sell @ 307 for 3 by User_3)
+2025-05-02 11:04:09,272 - INFO - 
+=== Transaction 47/50 ===
+2025-05-02 11:04:09,272 - DEBUG - The user can commit 146 shares
+2025-05-02 11:04:09,272 - DEBUG - The user can commit 79 shares after the order id 47 for 67 shares @ 436
+2025-05-02 11:04:09,272 - INFO - User User_2 generated order: Order(47:: sell @ 436 for 67 by User_2)
+2025-05-02 11:04:09,272 - INFO - User_2 generated: Order(47:: sell @ 436 for 67 by User_2)
+2025-05-02 11:04:09,272 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+45 | User_1 | 346 | 91
+33 | User_3 | 315 | 28
+42 | User_2 | 298 | 33
+44 | User_7 | 287 | 48
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+40 | User_3 | 236 | 53
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+=====================
+=====================================
+Last Trade Price: 346.0
+=====================================
+
+2025-05-02 11:04:09,272 - DEBUG - Active order: Order(47:: sell @ 436 for 67 by User_2)
+2025-05-02 11:04:09,272 - DEBUG - Matching order now... Order(47:: sell @ 436 for 67 by User_2)
+2025-05-02 11:04:09,272 - DEBUG - No more matches possible for active order: Order(47:: sell @ 436 for 67 by User_2).
+2025-05-02 11:04:09,272 - DEBUG - Processing matched orders: [] with active order: Order(47:: sell @ 436 for 67 by User_2)
+2025-05-02 11:04:09,272 - DEBUG - No matched orders found.
+2025-05-02 11:04:09,272 - DEBUG - Active order added to sell orders: Order(47:: sell @ 436 for 67 by User_2)
+2025-05-02 11:04:09,272 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+45 | User_1 | 346 | 91
+33 | User_3 | 315 | 28
+42 | User_2 | 298 | 33
+44 | User_7 | 287 | 48
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+40 | User_3 | 236 | 53
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+47 | User_2 | 436 | 67
+=====================
+=====================================
+Last Trade Price: 346.0
+=====================================
+
+2025-05-02 11:04:09,272 - DEBUG - Matched orders: []
+2025-05-02 11:04:09,272 - INFO - Active order after matching: Order(47:: sell @ 436 for 67 by User_2)
+2025-05-02 11:04:09,373 - INFO - 
+=== Transaction 48/50 ===
+2025-05-02 11:04:09,373 - DEBUG - The user can commit 157 shares
+2025-05-02 11:04:09,373 - DEBUG - The user can commit 105 shares after the order id 48 for 52 shares @ 304
+2025-05-02 11:04:09,373 - INFO - User User_7 generated order: Order(48:: sell @ 304 for 52 by User_7)
+2025-05-02 11:04:09,373 - INFO - User_7 generated: Order(48:: sell @ 304 for 52 by User_7)
+2025-05-02 11:04:09,373 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+45 | User_1 | 346 | 91
+33 | User_3 | 315 | 28
+42 | User_2 | 298 | 33
+44 | User_7 | 287 | 48
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+40 | User_3 | 236 | 53
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+47 | User_2 | 436 | 67
+=====================
+=====================================
+Last Trade Price: 346.0
+=====================================
+
+2025-05-02 11:04:09,373 - DEBUG - Active order: Order(48:: sell @ 304 for 52 by User_7)
+2025-05-02 11:04:09,373 - DEBUG - Matching order now... Order(48:: sell @ 304 for 52 by User_7)
+2025-05-02 11:04:09,373 - DEBUG - Matched order: Order(45:: buy @ 346 for 39 by User_1) with active order: Order(48:: sell @ 304 for 52 by User_7), qty_to_match: 0
+2025-05-02 11:04:09,373 - INFO - Active order was fully matched: Order(48:: sell @ 304 for 52 by User_7) with orders, proceeding to process matched orders.
+2025-05-02 11:04:09,373 - DEBUG - Processing matched orders: [Order(45:: buy @ 346 for 39 by User_1)] with active order: Order(48:: sell @ 304 for 52 by User_7)
+2025-05-02 11:04:09,373 - DEBUG - Last trade price set to: 346.0
+2025-05-02 11:04:09,373 - DEBUG - Matched orders: [Order(45:: buy @ 346 for 39 by User_1)]
+2025-05-02 11:04:09,373 - DEBUG - Partial match, remaining order: Order(45:: buy @ 346 for 39 by User_1), adding to buy orders.
+2025-05-02 11:04:09,373 - INFO - User User_1 bought 52 shares @ 346.00. New balance: 106508.00, shares: 142
+2025-05-02 11:04:09,373 - INFO - ROUTE C !!! User User_1: Order 45 partially/fully executed for 52 shares at 346[0m
+2025-05-02 11:04:09,373 - INFO - User User_7 sold 52 shares @ 346.00. New balance: 166417.00, shares: 105
+2025-05-02 11:04:09,373 - INFO - ROUTE D !!! User User_7: Order 48 partially/fully executed for 52 shares at 346.0[0m
+2025-05-02 11:04:09,373 - INFO - Global net balance check: Initial: 789764, Final: 789764.0, Change: 0.0
+2025-05-02 11:04:09,373 - INFO - Global net shares check: Initial: 834, Final: 834, Change: 0
+2025-05-02 11:04:09,373 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+45 | User_1 | 346 | 39
+33 | User_3 | 315 | 28
+42 | User_2 | 298 | 33
+44 | User_7 | 287 | 48
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+40 | User_3 | 236 | 53
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+47 | User_2 | 436 | 67
+=====================
+=====================================
+Last Trade Price: 346.0
+=====================================
+
+2025-05-02 11:04:09,373 - DEBUG - Matched orders: [Order(45:: buy @ 346 for 39 by User_1)]
+2025-05-02 11:04:09,373 - INFO - Active order after matching: Order(48:: sell @ 304 for 52 by User_7)
+2025-05-02 11:04:09,474 - INFO - 
+=== Transaction 49/50 ===
+2025-05-02 11:04:09,474 - DEBUG - The user can commit 174 shares
+2025-05-02 11:04:09,474 - DEBUG - The user can commit 104 shares after the order id 49 for 70 shares @ 265
+2025-05-02 11:04:09,474 - INFO - User User_6 generated order: Order(49:: sell @ 265 for 70 by User_6)
+2025-05-02 11:04:09,474 - INFO - User_6 generated: Order(49:: sell @ 265 for 70 by User_6)
+2025-05-02 11:04:09,474 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+45 | User_1 | 346 | 39
+33 | User_3 | 315 | 28
+42 | User_2 | 298 | 33
+44 | User_7 | 287 | 48
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+40 | User_3 | 236 | 53
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+47 | User_2 | 436 | 67
+=====================
+=====================================
+Last Trade Price: 346.0
+=====================================
+
+2025-05-02 11:04:09,474 - DEBUG - Active order: Order(49:: sell @ 265 for 70 by User_6)
+2025-05-02 11:04:09,474 - DEBUG - Matching order now... Order(49:: sell @ 265 for 70 by User_6)
+2025-05-02 11:04:09,474 - DEBUG - Matched order: Order(45:: buy @ 346 for 0 by User_1) with active order: Order(49:: sell @ 265 for 70 by User_6), qty_to_match: 31
+2025-05-02 11:04:09,474 - DEBUG - Matched order: Order(33:: buy @ 315 for 0 by User_3) with active order: Order(49:: sell @ 265 for 70 by User_6), qty_to_match: 3
+2025-05-02 11:04:09,474 - DEBUG - Matched order: Order(42:: buy @ 298 for 30 by User_2) with active order: Order(49:: sell @ 265 for 70 by User_6), qty_to_match: 0
+2025-05-02 11:04:09,474 - INFO - Active order was fully matched: Order(49:: sell @ 265 for 70 by User_6) with orders, proceeding to process matched orders.
+2025-05-02 11:04:09,474 - DEBUG - Processing matched orders: [Order(45:: buy @ 346 for 0 by User_1), Order(33:: buy @ 315 for 0 by User_3), Order(42:: buy @ 298 for 30 by User_2)] with active order: Order(49:: sell @ 265 for 70 by User_6)
+2025-05-02 11:04:09,474 - DEBUG - Last trade price set to: 331.54285714285714
+2025-05-02 11:04:09,474 - DEBUG - Matched orders: [Order(45:: buy @ 346 for 0 by User_1), Order(33:: buy @ 315 for 0 by User_3), Order(42:: buy @ 298 for 30 by User_2)]
+2025-05-02 11:04:09,474 - INFO - User User_1 bought 39 shares @ 346.00. New balance: 93014.00, shares: 181
+2025-05-02 11:04:09,474 - INFO - ROUTE B !!! User User_1: Order 45 executed for 39 shares at 346[0m
+2025-05-02 11:04:09,474 - INFO - User User_3 bought 28 shares @ 315.00. New balance: 103809.00, shares: 94
+2025-05-02 11:04:09,474 - INFO - ROUTE B !!! User User_3: Order 33 executed for 28 shares at 315[0m
+2025-05-02 11:04:09,474 - DEBUG - Partial match, remaining order: Order(42:: buy @ 298 for 30 by User_2), adding to buy orders.
+2025-05-02 11:04:09,474 - INFO - User User_2 bought 3 shares @ 298.00. New balance: 67893.00, shares: 149
+2025-05-02 11:04:09,474 - INFO - ROUTE C !!! User User_2: Order 42 partially/fully executed for 3 shares at 298[0m
+2025-05-02 11:04:09,474 - INFO - User User_6 sold 70 shares @ 331.54. New balance: 79859.00, shares: 104
+2025-05-02 11:04:09,474 - INFO - ROUTE D !!! User User_6: Order 49 partially/fully executed for 70 shares at 331.54285714285714[0m
+2025-05-02 11:04:09,474 - INFO - Global net balance check: Initial: 789764, Final: 789764.0, Change: 0.0
+2025-05-02 11:04:09,474 - INFO - Global net shares check: Initial: 834, Final: 834, Change: 0
+2025-05-02 11:04:09,474 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+42 | User_2 | 298 | 30
+44 | User_7 | 287 | 48
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+40 | User_3 | 236 | 53
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+47 | User_2 | 436 | 67
+=====================
+=====================================
+Last Trade Price: 331.54285714285714
+=====================================
+
+2025-05-02 11:04:09,474 - DEBUG - Matched orders: [Order(45:: buy @ 346 for 0 by User_1), Order(33:: buy @ 315 for 0 by User_3), Order(42:: buy @ 298 for 30 by User_2)]
+2025-05-02 11:04:09,474 - INFO - Active order after matching: Order(49:: sell @ 265 for 70 by User_6)
+2025-05-02 11:04:09,576 - INFO - 
+=== Transaction 50/50 ===
+2025-05-02 11:04:09,576 - DEBUG - The user can commit 53172.0 balance
+2025-05-02 11:04:09,576 - DEBUG - The user can commit 50912.0 balance after the order id 50 for 10 shares @ 226
+2025-05-02 11:04:09,576 - INFO - User User_7 generated order: Order(50:: buy @ 226 for 10 by User_7)
+2025-05-02 11:04:09,576 - INFO - User_7 generated: Order(50:: buy @ 226 for 10 by User_7)
+2025-05-02 11:04:09,576 - DEBUG - Book before matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+42 | User_2 | 298 | 30
+44 | User_7 | 287 | 48
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+40 | User_3 | 236 | 53
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+47 | User_2 | 436 | 67
+=====================
+=====================================
+Last Trade Price: 331.54285714285714
+=====================================
+
+2025-05-02 11:04:09,576 - DEBUG - Active order: Order(50:: buy @ 226 for 10 by User_7)
+2025-05-02 11:04:09,576 - DEBUG - Matching order now... Order(50:: buy @ 226 for 10 by User_7)
+2025-05-02 11:04:09,576 - DEBUG - No more matches possible for active order: Order(50:: buy @ 226 for 10 by User_7).
+2025-05-02 11:04:09,576 - DEBUG - Processing matched orders: [] with active order: Order(50:: buy @ 226 for 10 by User_7)
+2025-05-02 11:04:09,576 - DEBUG - No matched orders found.
+2025-05-02 11:04:09,576 - DEBUG - Active order added to buy orders: Order(50:: buy @ 226 for 10 by User_7)
+2025-05-02 11:04:09,576 - DEBUG - Book after matching:  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+42 | User_2 | 298 | 30
+44 | User_7 | 287 | 48
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+40 | User_3 | 236 | 53
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+50 | User_7 | 226 | 10
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+47 | User_2 | 436 | 67
+=====================
+=====================================
+Last Trade Price: 331.54285714285714
+=====================================
+
+2025-05-02 11:04:09,576 - DEBUG - Matched orders: []
+2025-05-02 11:04:09,576 - INFO - Active order after matching: Order(50:: buy @ 226 for 10 by User_7)
+2025-05-02 11:04:09,576 - INFO - 
+Order Book State after 50 transactions:
+2025-05-02 11:04:09,576 - INFO -  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+42 | User_2 | 298 | 30
+44 | User_7 | 287 | 48
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+40 | User_3 | 236 | 53
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+50 | User_7 | 226 | 10
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+47 | User_2 | 436 | 67
+=====================
+=====================================
+Last Trade Price: 331.54285714285714
+=====================================
+
+2025-05-02 11:04:09,677 - INFO - 
+=== Simulation Complete ===
+2025-05-02 11:04:09,677 - INFO - 
+Final Order Book State:
+2025-05-02 11:04:09,677 - INFO -  ================Order Book ====================
+Buy Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+42 | User_2 | 298 | 30
+44 | User_7 | 287 | 48
+17 | User_7 | 272 | 213
+16 | User_1 | 263 | 44
+24 | User_2 | 257 | 14
+40 | User_3 | 236 | 53
+28 | User_2 | 227 | 50
+27 | User_7 | 226 | 144
+50 | User_7 | 226 | 10
+15 | User_4 | 211 | 96
+21 | User_4 | 198 | 184
+11 | User_3 | 180 | 139
+20 | User_3 | 157 | 101
+9 | User_2 | 148 | 100
+18 | User_5 | 144 | 7
+6 | User_1 | 117 | 258
+13 | User_1 | 115 | 154
+8 | User_5 | 108 | 436
+5 | User_7 | 101 | 89
+4 | User_6 | 97 | 170
+3 | User_3 | 92 | 243
+1 | User_4 | 73 | 305
+=====================
+
+Sell Orders:
+Order ID | Agent ID | Price | Amount
+ =====================
+47 | User_2 | 436 | 67
+=====================
+=====================================
+Last Trade Price: 331.54285714285714
+=====================================
+
+2025-05-02 11:04:09,677 - INFO - 
+Final User Balances:
+2025-05-02 11:04:09,677 - INFO - User_1: $93014.00 balance, 181 shares
+2025-05-02 11:04:09,677 - INFO - User_2: $67893.00 balance, 149 shares
+2025-05-02 11:04:09,677 - INFO - User_3: $103809.00 balance, 94 shares
+2025-05-02 11:04:09,677 - INFO - User_4: $121401.00 balance, 76 shares
+2025-05-02 11:04:09,677 - INFO - User_5: $157371.00 balance, 125 shares
+2025-05-02 11:04:09,677 - INFO - User_6: $79859.00 balance, 104 shares
+2025-05-02 11:04:09,677 - INFO - User_7: $166417.00 balance, 105 shares
+2025-05-02 11:04:09,677 - INFO - 
+Total Initial Balance: $789764.00, Total Final Balance: $789764.00
+2025-05-02 11:04:09,677 - INFO - Total Initial Shares: 834, Total Final Shares: 834
+2025-05-02 11:04:09,677 - INFO - Balance Change: $0.00
